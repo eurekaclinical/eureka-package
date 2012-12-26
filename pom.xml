@@ -8,6 +8,12 @@
     <packaging>pom</packaging>
 
     <name>Eureka Package</name>
+    <description>This package creates a binary distribution of Eureka! Clinical Analytics.
+    </description>
+    <organization>
+        <name>Emory University</name>
+        <url>http://www.emory.edu</url>
+    </organization>
     <url>http://aiw.sourceforge.net/dev/${project.build.finalName}</url>
 
     <properties>
