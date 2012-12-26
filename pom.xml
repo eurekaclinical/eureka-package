@@ -15,7 +15,7 @@
     </properties>
     
     <scm>
-        <connection>scm:svn:https://scm.cci.emory.edu/svn/protempa/trunk</connection>
+        <developerConnection>scm:svn:https://scm.cci.emory.edu/svn/protempa/trunk</developerConnection>
         <url>https://scm.cci.emory.edu/svn/protempa/trunk</url>
     </scm>
     
