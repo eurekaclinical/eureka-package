@@ -38,6 +38,7 @@
             <item name="Project Team" href="team-list.html"/>
         </menu>
         <menu name="Documentation">
+            <item name="Building" href="building.html"/>
             <item name="License" href="license.html"/>
         </menu>
         <menu name="Information from Maven">
