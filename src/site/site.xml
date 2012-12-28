@@ -16,15 +16,10 @@
         </fluidoSkin>
     </custom>
 
-    <bannerLeft>
-        <name>Eureka! Clinical Analytics</name>
-        <src>../../images/eureka-banner-logo.png</src>
-        <href>../../.</href>
-    </bannerLeft>
     <bannerRight>
-        <name>Sponsors</name>
-        <src>../../images/eureka-banner-sponsors.png</src>
-        <href>../../sponsors.html</href>
+        <name>Emory University Center for Comprehensive Informatics</name>
+        <src>../../../images/cci-logo.gif</src>
+        <href>http://cci.emory.edu</href>
     </bannerRight>
 
     <body>
