@@ -1,0 +1,5054 @@
+; Mon Oct 15 09:46:43 EDT 2012
+; 
+;+ (version "3.4.7")
+;+ (build "Build 620")
+
+([AIW_ProjectKB_Class1] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class2])
+	(widget_class_name "se.liu.ida.JessTab.JessTab"))
+
+([AIW_ProjectKB_Class10] of  Property_List
+)
+
+([AIW_ProjectKB_Class100] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class10081] of  Widget
+
+	(is_hidden FALSE)
+	(name "Relation")
+	(property_list [AIW_ProjectKB_Class10082])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([AIW_ProjectKB_Class10082] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class10083]
+		[AIW_ProjectKB_Class20084]
+		[AIW_ProjectKB_Class20086]
+		[AIW_ProjectKB_Class20088]
+		[AIW_ProjectKB_Class20090]
+		[AIW_ProjectKB_Class20092]
+		[AIW_ProjectKB_Class20094]
+		[AIW_ProjectKB_Class20096]
+		[AIW_ProjectKB_Class20098]
+		[AIW_ProjectKB_Class20100]
+		[AIW_ProjectKB_Class20102]
+		[AIW_ProjectKB_Class20104]
+		[AIW_ProjectKB_Class20106]
+		[AIW_ProjectKB_Class20110]
+		[AIW_ProjectKB_Class20112]
+		[AIW_ProjectKB_Class30114]
+		[AIW_ProjectKB_Class30116]
+		[AIW_ProjectKB_Class30118]
+		[AIW_ProjectKB_Class30120]
+		[AIW_ProjectKB_Class30124]))
+
+([AIW_ProjectKB_Class10083] of  Property_List
+
+	(name "layout properties"))
+
+([AIW_ProjectKB_Class10084] of  Boolean
+
+	(boolean_value TRUE)
+	(name "readOnly_configured"))
+
+([AIW_ProjectKB_Class101] of  Widget
+
+	(height 80)
+	(is_hidden FALSE)
+	(name "documentation")
+	(property_list [AIW_ProjectKB_Class102])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 600)
+	(x 0)
+	(y 360))
+
+([AIW_ProjectKB_Class10110] of  Property_List
+)
+
+([AIW_ProjectKB_Class10111] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "abbrevDisplayName")
+	(property_list [AIW_ProjectKB_Class10112])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([AIW_ProjectKB_Class10112] of  Property_List
+)
+
+([AIW_ProjectKB_Class10113] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name ":NAME")
+	(property_list [AIW_ProjectKB_Class10114])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 400)
+	(x 0)
+	(y 0))
+
+([AIW_ProjectKB_Class10114] of  Property_List
+)
+
+([AIW_ProjectKB_Class10115] of  String
+
+	(name "tooltip_text"))
+
+([AIW_ProjectKB_Class10116] of  Boolean
+
+	(boolean_value TRUE)
+	(name "readOnly_configured"))
+
+([AIW_ProjectKB_Class10117] of  Widget
+
+	(is_hidden FALSE)
+	(name "Event")
+	(property_list [AIW_ProjectKB_Class20394])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([AIW_ProjectKB_Class10158] of  Widget
+
+	(is_hidden FALSE)
+	(name "PrimitiveParameter")
+	(property_list [AIW_ProjectKB_Class20500])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([AIW_ProjectKB_Class102] of  Property_List
+)
+
+([AIW_ProjectKB_Class103] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "inverseIsA")
+	(property_list [AIW_ProjectKB_Class104])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 240))
+
+([AIW_ProjectKB_Class104] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class105]
+		[AIW_ProjectKB_Class106]))
+
+([AIW_ProjectKB_Class105] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class106] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class107] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Solid")
+	(name "solid")
+	(property_list [AIW_ProjectKB_Class108])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 70)
+	(x 330)
+	(y 60))
+
+([AIW_ProjectKB_Class108] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class10115]
+		[AIW_ProjectKB_Class10116]))
+
+([AIW_ProjectKB_Class109] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "displayName")
+	(property_list [AIW_ProjectKB_Class10110])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([AIW_ProjectKB_Class11] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class12])
+	(widget_class_name "ca.uvic.csr.shrimp.jambalaya.JambalayaTab"))
+
+([AIW_ProjectKB_Class110] of  String
+
+	(name "SearchTab_Query"))
+
+([AIW_ProjectKB_Class12] of  Property_List
+)
+
+([AIW_ProjectKB_Class13] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class14])
+	(widget_class_name "ezpal.EZPalTab"))
+
+([AIW_ProjectKB_Class14] of  Property_List
+)
+
+([AIW_ProjectKB_Class15] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class16])
+	(widget_class_name "edu.stanford.smi.protegex.server_changes.prompt.UsersTab"))
+
+([AIW_ProjectKB_Class16] of  Property_List
+)
+
+([AIW_ProjectKB_Class17] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class18])
+	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.InstanceTreeTab"))
+
+([AIW_ProjectKB_Class18] of  Property_List
+)
+
+([AIW_ProjectKB_Class19] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class20])
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalConstraintsTab"))
+
+([AIW_ProjectKB_Class2] of  Property_List
+)
+
+([AIW_ProjectKB_Class20] of  Property_List
+)
+
+([AIW_ProjectKB_Class20081] of  Widget
+
+	(is_hidden FALSE)
+	(name "PropertyConstraint")
+	(property_list [AIW_ProjectKB_Class20082])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([AIW_ProjectKB_Class20082] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20083]
+		[AIW_ProjectKB_Class40084]
+		[AIW_ProjectKB_Class40088]
+		[AIW_ProjectKB_Class40090]
+		[AIW_ProjectKB_Class40092]))
+
+([AIW_ProjectKB_Class20083] of  Property_List
+
+	(name "layout properties"))
+
+([AIW_ProjectKB_Class20084] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxs1s2Units")
+	(property_list [AIW_ProjectKB_Class20085])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 310)
+	(y 200))
+
+([AIW_ProjectKB_Class20085] of  Property_List
+)
+
+([AIW_ProjectKB_Class20086] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "mins1s2Units")
+	(property_list [AIW_ProjectKB_Class20087])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 100)
+	(y 200))
+
+([AIW_ProjectKB_Class20087] of  Property_List
+)
+
+([AIW_ProjectKB_Class20088] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxf1s2Units")
+	(property_list [AIW_ProjectKB_Class20089])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 310)
+	(y 320))
+
+([AIW_ProjectKB_Class20089] of  Property_List
+)
+
+([AIW_ProjectKB_Class20090] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "minf1s2Units")
+	(property_list [AIW_ProjectKB_Class20091])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 100)
+	(y 320))
+
+([AIW_ProjectKB_Class20091] of  Property_List
+)
+
+([AIW_ProjectKB_Class20092] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "minf1f2Units")
+	(property_list [AIW_ProjectKB_Class20093])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 100)
+	(y 380))
+
+([AIW_ProjectKB_Class20093] of  Property_List
+)
+
+([AIW_ProjectKB_Class20094] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxf1f2")
+	(property_list [AIW_ProjectKB_Class20095])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 210)
+	(y 380))
+
+([AIW_ProjectKB_Class20095] of  Property_List
+)
+
+([AIW_ProjectKB_Class20096] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "mins1s2")
+	(property_list [AIW_ProjectKB_Class20097])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 0)
+	(y 200))
+
+([AIW_ProjectKB_Class20097] of  Property_List
+)
+
+([AIW_ProjectKB_Class20098] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "mins1f2Units")
+	(property_list [AIW_ProjectKB_Class20099])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 100)
+	(y 260))
+
+([AIW_ProjectKB_Class20099] of  Property_List
+)
+
+([AIW_ProjectKB_Class20100] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxf1f2Units")
+	(property_list [AIW_ProjectKB_Class20101])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 310)
+	(y 380))
+
+([AIW_ProjectKB_Class20101] of  Property_List
+)
+
+([AIW_ProjectKB_Class20102] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name ":NAME")
+	(property_list [AIW_ProjectKB_Class20103])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 410)
+	(x 0)
+	(y 0))
+
+([AIW_ProjectKB_Class20103] of  Property_List
+)
+
+([AIW_ProjectKB_Class20104] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "minf1f2")
+	(property_list [AIW_ProjectKB_Class20105])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 0)
+	(y 380))
+
+([AIW_ProjectKB_Class20105] of  Property_List
+)
+
+([AIW_ProjectKB_Class20106] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "lhs")
+	(property_list [AIW_ProjectKB_Class20107])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 410)
+	(x 0)
+	(y 70))
+
+([AIW_ProjectKB_Class20107] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20108]
+		[AIW_ProjectKB_Class20109]))
+
+([AIW_ProjectKB_Class20108] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20109] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20110] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxs1f2Units")
+	(property_list [AIW_ProjectKB_Class20111])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 310)
+	(y 260))
+
+([AIW_ProjectKB_Class20111] of  Property_List
+)
+
+([AIW_ProjectKB_Class20112] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "minf1s2")
+	(property_list [AIW_ProjectKB_Class30113])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 0)
+	(y 320))
+
+([AIW_ProjectKB_Class20113] of  Widget
+
+	(is_hidden FALSE)
+	(name "SimpleAbstraction")
+	(property_list [AIW_ProjectKB_Class20114])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([AIW_ProjectKB_Class20114] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20115]
+		[AIW_ProjectKB_Class20116]
+		[AIW_ProjectKB_Class20120]
+		[AIW_ProjectKB_Class20122]
+		[AIW_ProjectKB_Class20124]
+		[AIW_ProjectKB_Class20126]
+		[AIW_ProjectKB_Class20128]
+		[AIW_ProjectKB_Class20130]
+		[AIW_ProjectKB_Class20132]
+		[AIW_ProjectKB_Class20134]
+		[AIW_ProjectKB_Class20136]
+		[AIW_ProjectKB_Class20138]
+		[AIW_ProjectKB_Class20140]
+		[AIW_ProjectKB_Class20142]
+		[AIW_ProjectKB_Class20146]))
+
+([AIW_ProjectKB_Class20115] of  Property_List
+
+	(name "layout properties"))
+
+([AIW_ProjectKB_Class20116] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "usingAlgorithm")
+	(property_list [AIW_ProjectKB_Class20117])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([AIW_ProjectKB_Class20117] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20118]
+		[AIW_ProjectKB_Class20119]))
+
+([AIW_ProjectKB_Class20118] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20119] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20120] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "minDuration")
+	(property_list [AIW_ProjectKB_Class20121])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 200)
+	(y 120))
+
+([AIW_ProjectKB_Class20121] of  Property_List
+)
+
+([AIW_ProjectKB_Class20122] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxValues")
+	(property_list [AIW_ProjectKB_Class20123])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 520)
+	(y 0))
+
+([AIW_ProjectKB_Class20123] of  Property_List
+)
+
+([AIW_ProjectKB_Class20124] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxDurationUnits")
+	(property_list [AIW_ProjectKB_Class20125])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 520)
+	(y 120))
+
+([AIW_ProjectKB_Class20125] of  Property_List
+)
+
+([AIW_ProjectKB_Class20126] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "minGapValues")
+	(property_list [AIW_ProjectKB_Class20127])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 200)
+	(y 60))
+
+([AIW_ProjectKB_Class20127] of  Property_List
+)
+
+([AIW_ProjectKB_Class20128] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "minDurationUnits")
+	(property_list [AIW_ProjectKB_Class20129])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 300)
+	(y 120))
+
+([AIW_ProjectKB_Class20129] of  Property_List
+)
+
+([AIW_ProjectKB_Class20130] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxDuration")
+	(property_list [AIW_ProjectKB_Class20131])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 420)
+	(y 120))
+
+([AIW_ProjectKB_Class20131] of  Property_List
+)
+
+([AIW_ProjectKB_Class20132] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxGapUnits")
+	(property_list [AIW_ProjectKB_Class20133])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 300)
+	(y 0))
+
+([AIW_ProjectKB_Class20133] of  Property_List
+)
+
+([AIW_ProjectKB_Class20134] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "minValues")
+	(property_list [AIW_ProjectKB_Class20135])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 420)
+	(y 0))
+
+([AIW_ProjectKB_Class20135] of  Property_List
+)
+
+([AIW_ProjectKB_Class20136] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxGapValuesUnits")
+	(property_list [AIW_ProjectKB_Class20137])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 520)
+	(y 60))
+
+([AIW_ProjectKB_Class20137] of  Property_List
+)
+
+([AIW_ProjectKB_Class20138] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "minGapValuesUnits")
+	(property_list [AIW_ProjectKB_Class20139])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 300)
+	(y 60))
+
+([AIW_ProjectKB_Class20139] of  Property_List
+)
+
+([AIW_ProjectKB_Class20140] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxGap")
+	(property_list [AIW_ProjectKB_Class20141])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 200)
+	(y 0))
+
+([AIW_ProjectKB_Class20141] of  Property_List
+)
+
+([AIW_ProjectKB_Class20142] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "allowedValues")
+	(property_list [AIW_ProjectKB_Class20143])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([AIW_ProjectKB_Class20143] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20144]
+		[AIW_ProjectKB_Class20145]))
+
+([AIW_ProjectKB_Class20144] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20145] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20146] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxGapValues")
+	(property_list [AIW_ProjectKB_Class20147])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 420)
+	(y 60))
+
+([AIW_ProjectKB_Class20147] of  Property_List
+)
+
+([AIW_ProjectKB_Class20151] of  Widget
+
+	(is_hidden FALSE)
+	(name "SliceAbstraction")
+	(property_list [AIW_ProjectKB_Class20152])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([AIW_ProjectKB_Class20152] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20153]
+		[AIW_ProjectKB_Class20154]
+		[AIW_ProjectKB_Class20156]
+		[AIW_ProjectKB_Class20158]))
+
+([AIW_ProjectKB_Class20153] of  Property_List
+
+	(name "layout properties"))
+
+([AIW_ProjectKB_Class20154] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "minIndex")
+	(property_list [AIW_ProjectKB_Class20155])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 0)
+	(y 0))
+
+([AIW_ProjectKB_Class20155] of  Property_List
+)
+
+([AIW_ProjectKB_Class20156] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxIndex")
+	(property_list [AIW_ProjectKB_Class20157])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 100)
+	(y 0))
+
+([AIW_ProjectKB_Class20157] of  Property_List
+)
+
+([AIW_ProjectKB_Class20158] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "extendedParameters")
+	(property_list [AIW_ProjectKB_Class20159])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([AIW_ProjectKB_Class20159] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20160]
+		[AIW_ProjectKB_Class20161]))
+
+([AIW_ProjectKB_Class20160] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20161] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20162] of  Widget
+
+	(is_hidden FALSE)
+	(name "Algorithm")
+	(property_list [AIW_ProjectKB_Class20163])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([AIW_ProjectKB_Class20163] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20164]
+		[AIW_ProjectKB_Class20165]
+		[AIW_ProjectKB_Class20167]
+		[AIW_ProjectKB_Class20169]
+		[AIW_ProjectKB_Class20171]
+		[AIW_ProjectKB_Class20175]))
+
+([AIW_ProjectKB_Class20164] of  Property_List
+
+	(name "layout properties"))
+
+([AIW_ProjectKB_Class20165] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "inValueType")
+	(property_list [AIW_ProjectKB_Class20166])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([AIW_ProjectKB_Class20166] of  Property_List
+)
+
+([AIW_ProjectKB_Class20167] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "minNumVal")
+	(property_list [AIW_ProjectKB_Class20168])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 0)
+	(y 60))
+
+([AIW_ProjectKB_Class20168] of  Property_List
+)
+
+([AIW_ProjectKB_Class20169] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxNumVal")
+	(property_list [AIW_ProjectKB_Class20170])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 100)
+	(y 60))
+
+([AIW_ProjectKB_Class20170] of  Property_List
+)
+
+([AIW_ProjectKB_Class20171] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(name "withArguments")
+	(property_list [AIW_ProjectKB_Class20172])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([AIW_ProjectKB_Class20172] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20173]
+		[AIW_ProjectKB_Class20174]))
+
+([AIW_ProjectKB_Class20173] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20174] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20175] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name ":NAME")
+	(property_list [AIW_ProjectKB_Class20176])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([AIW_ProjectKB_Class20176] of  Property_List
+)
+
+([AIW_ProjectKB_Class20187] of  Widget
+
+	(is_hidden FALSE)
+	(name "ExtendedProposition")
+	(property_list [AIW_ProjectKB_Class20188])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([AIW_ProjectKB_Class20188] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20189]
+		[AIW_ProjectKB_Class20190]
+		[AIW_ProjectKB_Class20194]
+		[AIW_ProjectKB_Class20196]
+		[AIW_ProjectKB_Class20198]
+		[AIW_ProjectKB_Class20200]
+		[AIW_ProjectKB_Class20204]
+		[AIW_ProjectKB_Class20206]
+		[AIW_ProjectKB_Class20208]
+		[AIW_ProjectKB_Class20210]
+		[AIW_ProjectKB_Class50203]))
+
+([AIW_ProjectKB_Class20189] of  Property_List
+
+	(name "layout properties"))
+
+([AIW_ProjectKB_Class20190] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "proposition")
+	(property_list [AIW_ProjectKB_Class20191])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 400)
+	(x 0)
+	(y 60))
+
+([AIW_ProjectKB_Class20191] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20192]
+		[AIW_ProjectKB_Class20193]))
+
+([AIW_ProjectKB_Class20192] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20193] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20194] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxDuration")
+	(property_list [AIW_ProjectKB_Class20195])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 200)
+	(y 180))
+
+([AIW_ProjectKB_Class20195] of  Property_List
+)
+
+([AIW_ProjectKB_Class20196] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "minDuration")
+	(property_list [AIW_ProjectKB_Class20197])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 0)
+	(y 180))
+
+([AIW_ProjectKB_Class20197] of  Property_List
+)
+
+([AIW_ProjectKB_Class20198] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "displayName")
+	(property_list [AIW_ProjectKB_Class20199])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([AIW_ProjectKB_Class20199] of  Property_List
+)
+
+([AIW_ProjectKB_Class20200] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "parameterValue")
+	(property_list [AIW_ProjectKB_Class20201])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 400)
+	(x 0)
+	(y 120))
+
+([AIW_ProjectKB_Class20201] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20202]
+		[AIW_ProjectKB_Class20203]))
+
+([AIW_ProjectKB_Class20202] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20203] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20204] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "abbrevDisplayName")
+	(property_list [AIW_ProjectKB_Class20205])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 400)
+	(y 60))
+
+([AIW_ProjectKB_Class20205] of  Property_List
+)
+
+([AIW_ProjectKB_Class20206] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxDurationUnits")
+	(property_list [AIW_ProjectKB_Class20207])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 300)
+	(y 180))
+
+([AIW_ProjectKB_Class20207] of  Property_List
+)
+
+([AIW_ProjectKB_Class20208] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "minDurationUnits")
+	(property_list [AIW_ProjectKB_Class20209])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 100)
+	(y 180))
+
+([AIW_ProjectKB_Class20209] of  Property_List
+)
+
+([AIW_ProjectKB_Class20210] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name ":NAME")
+	(property_list [AIW_ProjectKB_Class20211])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 400)
+	(x 0)
+	(y 0))
+
+([AIW_ProjectKB_Class20211] of  Property_List
+)
+
+([AIW_ProjectKB_Class20215] of  Widget
+
+	(is_hidden FALSE)
+	(name "Property")
+	(property_list [AIW_ProjectKB_Class20216])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([AIW_ProjectKB_Class20216] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20217]
+		[AIW_ProjectKB_Class20218]
+		[AIW_ProjectKB_Class20220]
+		[AIW_ProjectKB_Class20222]))
+
+([AIW_ProjectKB_Class20217] of  Property_List
+
+	(name "layout properties"))
+
+([AIW_ProjectKB_Class20218] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "documentation")
+	(property_list [AIW_ProjectKB_Class20219])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([AIW_ProjectKB_Class20219] of  Property_List
+)
+
+([AIW_ProjectKB_Class20220] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "valueType")
+	(property_list [AIW_ProjectKB_Class20221])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([AIW_ProjectKB_Class20221] of  Property_List
+)
+
+([AIW_ProjectKB_Class20222] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name ":NAME")
+	(property_list [AIW_ProjectKB_Class20223])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([AIW_ProjectKB_Class20223] of  Property_List
+)
+
+([AIW_ProjectKB_Class20263] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "abstractedInto")
+	(property_list [AIW_ProjectKB_Class20264])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 120))
+
+([AIW_ProjectKB_Class20264] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20265]
+		[AIW_ProjectKB_Class20266]))
+
+([AIW_ProjectKB_Class20265] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20266] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20267] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "reference")
+	(property_list [AIW_ProjectKB_Class20268])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 240))
+
+([AIW_ProjectKB_Class20268] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20269]
+		[AIW_ProjectKB_Class20270]))
+
+([AIW_ProjectKB_Class20269] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20270] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20271] of  Widget
+
+	(is_hidden FALSE)
+	(name "Reference")
+	(property_list [AIW_ProjectKB_Class20272])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([AIW_ProjectKB_Class20272] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20273]
+		[AIW_ProjectKB_Class20274]
+		[AIW_ProjectKB_Class20278]
+		[AIW_ProjectKB_Class20280]))
+
+([AIW_ProjectKB_Class20273] of  Property_List
+
+	(name "layout properties"))
+
+([AIW_ProjectKB_Class20274] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "referenceTo")
+	(property_list [AIW_ProjectKB_Class20275])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([AIW_ProjectKB_Class20275] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20276]
+		[AIW_ProjectKB_Class20277]))
+
+([AIW_ProjectKB_Class20276] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20277] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20278] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "documentation")
+	(property_list [AIW_ProjectKB_Class20279])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 180))
+
+([AIW_ProjectKB_Class20279] of  Property_List
+)
+
+([AIW_ProjectKB_Class20280] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name ":NAME")
+	(property_list [AIW_ProjectKB_Class20281])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([AIW_ProjectKB_Class20281] of  Property_List
+)
+
+([AIW_ProjectKB_Class20327] of  Widget
+
+	(is_hidden FALSE)
+	(name "SimpleParameterConstraint")
+	(property_list [AIW_ProjectKB_Class20328])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([AIW_ProjectKB_Class20328] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20329]
+		[AIW_ProjectKB_Class20330]
+		[AIW_ProjectKB_Class20334]
+		[AIW_ProjectKB_Class20336]
+		[AIW_ProjectKB_Class20338]
+		[AIW_ProjectKB_Class20340]
+		[AIW_ProjectKB_Class20342]
+		[AIW_ProjectKB_Class20344]
+		[AIW_ProjectKB_Class20346]))
+
+([AIW_ProjectKB_Class20329] of  Property_List
+
+	(name "layout properties"))
+
+([AIW_ProjectKB_Class20330] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "allowedValueOf")
+	(property_list [AIW_ProjectKB_Class20331])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 400)
+	(x 0)
+	(y 60))
+
+([AIW_ProjectKB_Class20331] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20332]
+		[AIW_ProjectKB_Class20333]))
+
+([AIW_ProjectKB_Class20332] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20333] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20334] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "minValThreshold")
+	(property_list [AIW_ProjectKB_Class20335])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 100)
+	(y 120))
+
+([AIW_ProjectKB_Class20335] of  Property_List
+)
+
+([AIW_ProjectKB_Class20336] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "displayName")
+	(property_list [AIW_ProjectKB_Class20337])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 410)
+	(y 0))
+
+([AIW_ProjectKB_Class20337] of  Property_List
+)
+
+([AIW_ProjectKB_Class20338] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "minValComp")
+	(property_list [AIW_ProjectKB_Class20339])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 0)
+	(y 120))
+
+([AIW_ProjectKB_Class20339] of  Property_List
+)
+
+([AIW_ProjectKB_Class20340] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "abbrevDisplayName")
+	(property_list [AIW_ProjectKB_Class20341])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 410)
+	(y 60))
+
+([AIW_ProjectKB_Class20341] of  Property_List
+)
+
+([AIW_ProjectKB_Class20342] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxValThreshold")
+	(property_list [AIW_ProjectKB_Class20343])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 100)
+	(y 180))
+
+([AIW_ProjectKB_Class20343] of  Property_List
+)
+
+([AIW_ProjectKB_Class20344] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxValComp")
+	(property_list [AIW_ProjectKB_Class20345])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 0)
+	(y 180))
+
+([AIW_ProjectKB_Class20345] of  Property_List
+)
+
+([AIW_ProjectKB_Class20346] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name ":NAME")
+	(property_list [AIW_ProjectKB_Class20347])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 400)
+	(x 0)
+	(y 0))
+
+([AIW_ProjectKB_Class20347] of  Property_List
+)
+
+([AIW_ProjectKB_Class20351] of  Widget
+
+	(is_hidden FALSE)
+	(name "TemporalOffsets")
+	(property_list [AIW_ProjectKB_Class20352])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([AIW_ProjectKB_Class20352] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20353]
+		[AIW_ProjectKB_Class20354]
+		[AIW_ProjectKB_Class20356]
+		[AIW_ProjectKB_Class20358]
+		[AIW_ProjectKB_Class20362]
+		[AIW_ProjectKB_Class20364]
+		[AIW_ProjectKB_Class20368]
+		[AIW_ProjectKB_Class20370]
+		[AIW_ProjectKB_Class20372]
+		[AIW_ProjectKB_Class20376]
+		[AIW_ProjectKB_Class20378]))
+
+([AIW_ProjectKB_Class20353] of  Property_List
+
+	(name "layout properties"))
+
+([AIW_ProjectKB_Class20354] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "finishSide")
+	(property_list [AIW_ProjectKB_Class20355])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 200)
+	(y 120))
+
+([AIW_ProjectKB_Class20355] of  Property_List
+)
+
+([AIW_ProjectKB_Class20356] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "startOffset")
+	(property_list [AIW_ProjectKB_Class20357])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 300)
+	(y 60))
+
+([AIW_ProjectKB_Class20357] of  Property_List
+)
+
+([AIW_ProjectKB_Class20358] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "finishExtendedProposition")
+	(property_list [AIW_ProjectKB_Class20359])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([AIW_ProjectKB_Class20359] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20360]
+		[AIW_ProjectKB_Class20361]))
+
+([AIW_ProjectKB_Class20360] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20361] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20362] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "finishOffset")
+	(property_list [AIW_ProjectKB_Class20363])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 300)
+	(y 120))
+
+([AIW_ProjectKB_Class20363] of  Property_List
+)
+
+([AIW_ProjectKB_Class20364] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "startExtendedProposition")
+	(property_list [AIW_ProjectKB_Class20365])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([AIW_ProjectKB_Class20365] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20366]
+		[AIW_ProjectKB_Class20367]))
+
+([AIW_ProjectKB_Class20366] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20367] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20368] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "finishOffsetUnits")
+	(property_list [AIW_ProjectKB_Class20369])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 400)
+	(y 120))
+
+([AIW_ProjectKB_Class20369] of  Property_List
+)
+
+([AIW_ProjectKB_Class20370] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name ":NAME")
+	(property_list [AIW_ProjectKB_Class20371])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([AIW_ProjectKB_Class20371] of  Property_List
+)
+
+([AIW_ProjectKB_Class20372] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "complexAbstraction")
+	(property_list [AIW_ProjectKB_Class20373])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 300)
+	(x 200)
+	(y 0))
+
+([AIW_ProjectKB_Class20373] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20374]
+		[AIW_ProjectKB_Class20375]))
+
+([AIW_ProjectKB_Class20374] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20375] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20376] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "startOffsetUnits")
+	(property_list [AIW_ProjectKB_Class20377])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 400)
+	(y 60))
+
+([AIW_ProjectKB_Class20377] of  Property_List
+)
+
+([AIW_ProjectKB_Class20378] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "startSide")
+	(property_list [AIW_ProjectKB_Class20379])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 200)
+	(y 60))
+
+([AIW_ProjectKB_Class20379] of  Property_List
+)
+
+([AIW_ProjectKB_Class20394] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20395]
+		[AIW_ProjectKB_Class20396]
+		[AIW_ProjectKB_Class20400]
+		[AIW_ProjectKB_Class20402]
+		[AIW_ProjectKB_Class20406]
+		[AIW_ProjectKB_Class20410]
+		[AIW_ProjectKB_Class20412]
+		[AIW_ProjectKB_Class20416]
+		[AIW_ProjectKB_Class20420]
+		[AIW_ProjectKB_Class20422]
+		[AIW_ProjectKB_Class20424]
+		[AIW_ProjectKB_Class20426]
+		[AIW_ProjectKB_Class20430]
+		[AIW_ProjectKB_Class20434]
+		[AIW_ProjectKB_Class20438]
+		[AIW_ProjectKB_Class20442]))
+
+([AIW_ProjectKB_Class20395] of  Property_List
+
+	(name "layout properties"))
+
+([AIW_ProjectKB_Class20396] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "isA")
+	(property_list [AIW_ProjectKB_Class20397])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 120))
+
+([AIW_ProjectKB_Class20397] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20398]
+		[AIW_ProjectKB_Class20399]))
+
+([AIW_ProjectKB_Class20398] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20399] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20400] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(name "inDataSource")
+	(property_list [AIW_ProjectKB_Class20401])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 200)
+	(x 400)
+	(y 60))
+
+([AIW_ProjectKB_Class20401] of  Property_List
+)
+
+([AIW_ProjectKB_Class20402] of  Widget
+
+	(height 70)
+	(is_hidden FALSE)
+	(name "term")
+	(property_list [AIW_ProjectKB_Class20403])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 160))
+
+([AIW_ProjectKB_Class20403] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20404]
+		[AIW_ProjectKB_Class20405]))
+
+([AIW_ProjectKB_Class20404] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20405] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20406] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "property")
+	(property_list [AIW_ProjectKB_Class20407])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([AIW_ProjectKB_Class20407] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20408]
+		[AIW_ProjectKB_Class20409]))
+
+([AIW_ProjectKB_Class20408] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20409] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20410] of  Widget
+
+	(height 80)
+	(is_hidden FALSE)
+	(name "documentation")
+	(property_list [AIW_ProjectKB_Class20411])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 600)
+	(x 0)
+	(y 360))
+
+([AIW_ProjectKB_Class20411] of  Property_List
+)
+
+([AIW_ProjectKB_Class20412] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "inverseIsA")
+	(property_list [AIW_ProjectKB_Class20413])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 240))
+
+([AIW_ProjectKB_Class20413] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20414]
+		[AIW_ProjectKB_Class20415]))
+
+([AIW_ProjectKB_Class20414] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20415] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20416] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Solid")
+	(name "solid")
+	(property_list [AIW_ProjectKB_Class20417])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 70)
+	(x 330)
+	(y 60))
+
+([AIW_ProjectKB_Class20417] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20418]
+		[AIW_ProjectKB_Class20419]))
+
+([AIW_ProjectKB_Class20418] of  String
+
+	(name "tooltip_text"))
+
+([AIW_ProjectKB_Class20419] of  Boolean
+
+	(boolean_value TRUE)
+	(name "readOnly_configured"))
+
+([AIW_ProjectKB_Class20420] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "displayName")
+	(property_list [AIW_ProjectKB_Class20421])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([AIW_ProjectKB_Class20421] of  Property_List
+)
+
+([AIW_ProjectKB_Class20422] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "abbrevDisplayName")
+	(property_list [AIW_ProjectKB_Class20423])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([AIW_ProjectKB_Class20423] of  Property_List
+)
+
+([AIW_ProjectKB_Class20424] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name ":NAME")
+	(property_list [AIW_ProjectKB_Class20425])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 400)
+	(x 0)
+	(y 0))
+
+([AIW_ProjectKB_Class20425] of  Property_List
+)
+
+([AIW_ProjectKB_Class20426] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Concatenable")
+	(name "concatenable")
+	(property_list [AIW_ProjectKB_Class20427])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 120)
+	(x 200)
+	(y 60))
+
+([AIW_ProjectKB_Class20427] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20428]
+		[AIW_ProjectKB_Class20429]))
+
+([AIW_ProjectKB_Class20428] of  String
+
+	(name "tooltip_text"))
+
+([AIW_ProjectKB_Class20429] of  Boolean
+
+	(boolean_value TRUE)
+	(name "readOnly_configured"))
+
+([AIW_ProjectKB_Class20430] of  Widget
+
+	(height 70)
+	(is_hidden FALSE)
+	(name "abstractedInto")
+	(property_list [AIW_ProjectKB_Class20431])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 90))
+
+([AIW_ProjectKB_Class20431] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20432]
+		[AIW_ProjectKB_Class20433]))
+
+([AIW_ProjectKB_Class20432] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20433] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20434] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "reference")
+	(property_list [AIW_ProjectKB_Class20435])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 240))
+
+([AIW_ProjectKB_Class20435] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20436]
+		[AIW_ProjectKB_Class20437]))
+
+([AIW_ProjectKB_Class20436] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20437] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20438] of  Widget
+
+	(height 70)
+	(is_hidden FALSE)
+	(name "partOf")
+	(property_list [AIW_ProjectKB_Class20439])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 300))
+
+([AIW_ProjectKB_Class20439] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20440]
+		[AIW_ProjectKB_Class20441]))
+
+([AIW_ProjectKB_Class20440] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20441] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20442] of  Widget
+
+	(height 70)
+	(is_hidden FALSE)
+	(name "hasPart")
+	(property_list [AIW_ProjectKB_Class20443])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 230))
+
+([AIW_ProjectKB_Class20443] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20444]
+		[AIW_ProjectKB_Class20445]))
+
+([AIW_ProjectKB_Class20444] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20445] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20450] of  Widget
+
+	(is_hidden FALSE)
+	(name "AbstractParameter")
+	(property_list [AIW_ProjectKB_Class20561])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([AIW_ProjectKB_Class20500] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20501]
+		[AIW_ProjectKB_Class20502]
+		[AIW_ProjectKB_Class20506]
+		[AIW_ProjectKB_Class20508]
+		[AIW_ProjectKB_Class20512]
+		[AIW_ProjectKB_Class20516]
+		[AIW_ProjectKB_Class20518]
+		[AIW_ProjectKB_Class20522]
+		[AIW_ProjectKB_Class20526]
+		[AIW_ProjectKB_Class20528]
+		[AIW_ProjectKB_Class20530]
+		[AIW_ProjectKB_Class20532]
+		[AIW_ProjectKB_Class20536]
+		[AIW_ProjectKB_Class20540]
+		[AIW_ProjectKB_Class20552]
+		[AIW_ProjectKB_Class20554]
+		[AIW_ProjectKB_Class20556]))
+
+([AIW_ProjectKB_Class20501] of  Property_List
+
+	(name "layout properties"))
+
+([AIW_ProjectKB_Class20502] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "isA")
+	(property_list [AIW_ProjectKB_Class20503])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 180))
+
+([AIW_ProjectKB_Class20503] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20504]
+		[AIW_ProjectKB_Class20505]))
+
+([AIW_ProjectKB_Class20504] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20505] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20506] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(name "inDataSource")
+	(property_list [AIW_ProjectKB_Class20507])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 200)
+	(x 400)
+	(y 60))
+
+([AIW_ProjectKB_Class20507] of  Property_List
+)
+
+([AIW_ProjectKB_Class20508] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "term")
+	(property_list [AIW_ProjectKB_Class20509])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 300))
+
+([AIW_ProjectKB_Class20509] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20510]
+		[AIW_ProjectKB_Class20511]))
+
+([AIW_ProjectKB_Class20510] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20511] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20512] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "property")
+	(property_list [AIW_ProjectKB_Class20513])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 180))
+
+([AIW_ProjectKB_Class20513] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20514]
+		[AIW_ProjectKB_Class20515]))
+
+([AIW_ProjectKB_Class20514] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20515] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20516] of  Widget
+
+	(height 80)
+	(is_hidden FALSE)
+	(name "documentation")
+	(property_list [AIW_ProjectKB_Class20517])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 600)
+	(x 0)
+	(y 420))
+
+([AIW_ProjectKB_Class20517] of  Property_List
+)
+
+([AIW_ProjectKB_Class20518] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "inverseIsA")
+	(property_list [AIW_ProjectKB_Class20519])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 300))
+
+([AIW_ProjectKB_Class20519] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20520]
+		[AIW_ProjectKB_Class20521]))
+
+([AIW_ProjectKB_Class20520] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20521] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20522] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Solid")
+	(name "solid")
+	(property_list [AIW_ProjectKB_Class20523])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 80)
+	(x 320)
+	(y 60))
+
+([AIW_ProjectKB_Class20523] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20524]
+		[AIW_ProjectKB_Class20525]))
+
+([AIW_ProjectKB_Class20524] of  String
+
+	(name "tooltip_text"))
+
+([AIW_ProjectKB_Class20525] of  Boolean
+
+	(boolean_value TRUE)
+	(name "readOnly_configured"))
+
+([AIW_ProjectKB_Class20526] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "displayName")
+	(property_list [AIW_ProjectKB_Class20527])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([AIW_ProjectKB_Class20527] of  Property_List
+)
+
+([AIW_ProjectKB_Class20528] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "abbrevDisplayName")
+	(property_list [AIW_ProjectKB_Class20529])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([AIW_ProjectKB_Class20529] of  Property_List
+)
+
+([AIW_ProjectKB_Class20530] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name ":NAME")
+	(property_list [AIW_ProjectKB_Class20531])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 400)
+	(x 0)
+	(y 0))
+
+([AIW_ProjectKB_Class20531] of  Property_List
+)
+
+([AIW_ProjectKB_Class20532] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Concatenable")
+	(name "concatenable")
+	(property_list [AIW_ProjectKB_Class20533])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 110)
+	(x 200)
+	(y 60))
+
+([AIW_ProjectKB_Class20533] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20534]
+		[AIW_ProjectKB_Class20535]))
+
+([AIW_ProjectKB_Class20534] of  String
+
+	(name "tooltip_text"))
+
+([AIW_ProjectKB_Class20535] of  Boolean
+
+	(boolean_value TRUE)
+	(name "readOnly_configured"))
+
+([AIW_ProjectKB_Class20536] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "abstractedInto")
+	(property_list [AIW_ProjectKB_Class20537])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 180))
+
+([AIW_ProjectKB_Class20537] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20538]
+		[AIW_ProjectKB_Class20539]))
+
+([AIW_ProjectKB_Class20538] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20539] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20540] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "reference")
+	(property_list [AIW_ProjectKB_Class20541])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 300))
+
+([AIW_ProjectKB_Class20541] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20542]
+		[AIW_ProjectKB_Class20543]))
+
+([AIW_ProjectKB_Class20542] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20543] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20552] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "valueType")
+	(property_list [AIW_ProjectKB_Class20553])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([AIW_ProjectKB_Class20553] of  Property_List
+)
+
+([AIW_ProjectKB_Class20554] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxGapUnits")
+	(property_list [AIW_ProjectKB_Class20555])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 300)
+	(y 120))
+
+([AIW_ProjectKB_Class20555] of  Property_List
+)
+
+([AIW_ProjectKB_Class20556] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxGap")
+	(property_list [AIW_ProjectKB_Class20557])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 200)
+	(y 120))
+
+([AIW_ProjectKB_Class20557] of  Property_List
+)
+
+([AIW_ProjectKB_Class20561] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20562]
+		[AIW_ProjectKB_Class20563]
+		[AIW_ProjectKB_Class20567]
+		[AIW_ProjectKB_Class20569]
+		[AIW_ProjectKB_Class20573]
+		[AIW_ProjectKB_Class20577]
+		[AIW_ProjectKB_Class20579]
+		[AIW_ProjectKB_Class20583]
+		[AIW_ProjectKB_Class20587]
+		[AIW_ProjectKB_Class20589]
+		[AIW_ProjectKB_Class20591]
+		[AIW_ProjectKB_Class20593]
+		[AIW_ProjectKB_Class20597]
+		[AIW_ProjectKB_Class20601]
+		[AIW_ProjectKB_Class20613]
+		[AIW_ProjectKB_Class20615]))
+
+([AIW_ProjectKB_Class20562] of  Property_List
+
+	(name "layout properties"))
+
+([AIW_ProjectKB_Class20563] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "isA")
+	(property_list [AIW_ProjectKB_Class20564])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([AIW_ProjectKB_Class20564] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20565]
+		[AIW_ProjectKB_Class20566]))
+
+([AIW_ProjectKB_Class20565] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20566] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20567] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(name "inDataSource")
+	(property_list [AIW_ProjectKB_Class20568])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 200)
+	(x 400)
+	(y 60))
+
+([AIW_ProjectKB_Class20568] of  Property_List
+)
+
+([AIW_ProjectKB_Class20569] of  Widget
+
+	(height 70)
+	(is_hidden FALSE)
+	(name "term")
+	(property_list [AIW_ProjectKB_Class20570])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 360))
+
+([AIW_ProjectKB_Class20570] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20571]
+		[AIW_ProjectKB_Class20572]))
+
+([AIW_ProjectKB_Class20571] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20572] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20573] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "property")
+	(property_list [AIW_ProjectKB_Class20574])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 240))
+
+([AIW_ProjectKB_Class20574] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20575]
+		[AIW_ProjectKB_Class20576]))
+
+([AIW_ProjectKB_Class20575] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20576] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20577] of  Widget
+
+	(height 80)
+	(is_hidden FALSE)
+	(name "documentation")
+	(property_list [AIW_ProjectKB_Class20578])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 600)
+	(x 0)
+	(y 420))
+
+([AIW_ProjectKB_Class20578] of  Property_List
+)
+
+([AIW_ProjectKB_Class20579] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "inverseIsA")
+	(property_list [AIW_ProjectKB_Class20580])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 240))
+
+([AIW_ProjectKB_Class20580] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20581]
+		[AIW_ProjectKB_Class20582]))
+
+([AIW_ProjectKB_Class20581] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20582] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20583] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Solid")
+	(name "solid")
+	(property_list [AIW_ProjectKB_Class20584])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 90)
+	(x 310)
+	(y 60))
+
+([AIW_ProjectKB_Class20584] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20585]
+		[AIW_ProjectKB_Class20586]))
+
+([AIW_ProjectKB_Class20585] of  String
+
+	(name "tooltip_text"))
+
+([AIW_ProjectKB_Class20586] of  Boolean
+
+	(boolean_value TRUE)
+	(name "readOnly_configured"))
+
+([AIW_ProjectKB_Class20587] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "displayName")
+	(property_list [AIW_ProjectKB_Class20588])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([AIW_ProjectKB_Class20588] of  Property_List
+)
+
+([AIW_ProjectKB_Class20589] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "abbrevDisplayName")
+	(property_list [AIW_ProjectKB_Class20590])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([AIW_ProjectKB_Class20590] of  Property_List
+)
+
+([AIW_ProjectKB_Class20591] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name ":NAME")
+	(property_list [AIW_ProjectKB_Class20592])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 400)
+	(x 0)
+	(y 0))
+
+([AIW_ProjectKB_Class20592] of  Property_List
+)
+
+([AIW_ProjectKB_Class20593] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Concatenable")
+	(name "concatenable")
+	(property_list [AIW_ProjectKB_Class20594])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 110)
+	(x 200)
+	(y 60))
+
+([AIW_ProjectKB_Class20594] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20595]
+		[AIW_ProjectKB_Class20596]))
+
+([AIW_ProjectKB_Class20595] of  String
+
+	(name "tooltip_text"))
+
+([AIW_ProjectKB_Class20596] of  Boolean
+
+	(boolean_value TRUE)
+	(name "readOnly_configured"))
+
+([AIW_ProjectKB_Class20597] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "abstractedInto")
+	(property_list [AIW_ProjectKB_Class20598])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 240))
+
+([AIW_ProjectKB_Class20598] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20599]
+		[AIW_ProjectKB_Class20600]))
+
+([AIW_ProjectKB_Class20599] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20600] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20601] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "reference")
+	(property_list [AIW_ProjectKB_Class20602])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 120))
+
+([AIW_ProjectKB_Class20602] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20603]
+		[AIW_ProjectKB_Class20604]))
+
+([AIW_ProjectKB_Class20603] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20604] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class20613] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "valueType")
+	(property_list [AIW_ProjectKB_Class20614])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget")
+	(width 200)
+	(x 0)
+	(y 360))
+
+([AIW_ProjectKB_Class20614] of  Property_List
+)
+
+([AIW_ProjectKB_Class20615] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "abstractedFrom")
+	(property_list [AIW_ProjectKB_Class20616])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 120))
+
+([AIW_ProjectKB_Class20616] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class20617]
+		[AIW_ProjectKB_Class20618]))
+
+([AIW_ProjectKB_Class20617] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class20618] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class21] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class22])
+	(widget_class_name "edu.stanford.smi.RemoteKBTab.WordNetTab"))
+
+([AIW_ProjectKB_Class22] of  Property_List
+)
+
+([AIW_ProjectKB_Class22074] of  Widget
+
+	(is_hidden FALSE)
+	(name "Vital")
+	(property_list [AIW_ProjectKB_Class22557])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([AIW_ProjectKB_Class22557] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22558]
+		[AIW_ProjectKB_Class22559]
+		[AIW_ProjectKB_Class22563]
+		[AIW_ProjectKB_Class22565]
+		[AIW_ProjectKB_Class22569]
+		[AIW_ProjectKB_Class22573]
+		[AIW_ProjectKB_Class22575]
+		[AIW_ProjectKB_Class22579]
+		[AIW_ProjectKB_Class22583]
+		[AIW_ProjectKB_Class22585]
+		[AIW_ProjectKB_Class22587]
+		[AIW_ProjectKB_Class22589]
+		[AIW_ProjectKB_Class22593]
+		[AIW_ProjectKB_Class22597]
+		[AIW_ProjectKB_Class22601]
+		[AIW_ProjectKB_Class22603]
+		[AIW_ProjectKB_Class22605]))
+
+([AIW_ProjectKB_Class22558] of  Property_List
+
+	(name "layout properties"))
+
+([AIW_ProjectKB_Class22559] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "isA")
+	(property_list [AIW_ProjectKB_Class22560])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 150))
+
+([AIW_ProjectKB_Class22560] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22561]
+		[AIW_ProjectKB_Class22562]))
+
+([AIW_ProjectKB_Class22561] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class22562] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class22563] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(name "inDataSource")
+	(property_list [AIW_ProjectKB_Class22564])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([AIW_ProjectKB_Class22564] of  Property_List
+)
+
+([AIW_ProjectKB_Class22565] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "term")
+	(property_list [AIW_ProjectKB_Class22566])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 270))
+
+([AIW_ProjectKB_Class22566] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22567]
+		[AIW_ProjectKB_Class22568]))
+
+([AIW_ProjectKB_Class22567] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class22568] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class22569] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "property")
+	(property_list [AIW_ProjectKB_Class22570])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 150))
+
+([AIW_ProjectKB_Class22570] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22571]
+		[AIW_ProjectKB_Class22572]))
+
+([AIW_ProjectKB_Class22571] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class22572] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class22573] of  Widget
+
+	(height 80)
+	(is_hidden FALSE)
+	(name "documentation")
+	(property_list [AIW_ProjectKB_Class22574])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 600)
+	(x 0)
+	(y 390))
+
+([AIW_ProjectKB_Class22574] of  Property_List
+)
+
+([AIW_ProjectKB_Class22575] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "inverseIsA")
+	(property_list [AIW_ProjectKB_Class22576])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 270))
+
+([AIW_ProjectKB_Class22576] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22577]
+		[AIW_ProjectKB_Class22578]))
+
+([AIW_ProjectKB_Class22577] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class22578] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class22579] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Solid")
+	(name "solid")
+	(property_list [AIW_ProjectKB_Class22580])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 80)
+	(x 320)
+	(y 60))
+
+([AIW_ProjectKB_Class22580] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22581]
+		[AIW_ProjectKB_Class22582]))
+
+([AIW_ProjectKB_Class22581] of  String
+
+	(name "tooltip_text"))
+
+([AIW_ProjectKB_Class22582] of  Boolean
+
+	(boolean_value TRUE)
+	(name "readOnly_configured"))
+
+([AIW_ProjectKB_Class22583] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "displayName")
+	(property_list [AIW_ProjectKB_Class22584])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([AIW_ProjectKB_Class22584] of  Property_List
+)
+
+([AIW_ProjectKB_Class22585] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "abbrevDisplayName")
+	(property_list [AIW_ProjectKB_Class22586])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([AIW_ProjectKB_Class22586] of  Property_List
+)
+
+([AIW_ProjectKB_Class22587] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name ":NAME")
+	(property_list [AIW_ProjectKB_Class22588])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([AIW_ProjectKB_Class22588] of  Property_List
+)
+
+([AIW_ProjectKB_Class22589] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Concatenable")
+	(name "concatenable")
+	(property_list [AIW_ProjectKB_Class22590])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 200)
+	(x 200)
+	(y 60))
+
+([AIW_ProjectKB_Class22590] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22591]
+		[AIW_ProjectKB_Class22592]))
+
+([AIW_ProjectKB_Class22591] of  String
+
+	(name "tooltip_text"))
+
+([AIW_ProjectKB_Class22592] of  Boolean
+
+	(boolean_value TRUE)
+	(name "readOnly_configured"))
+
+([AIW_ProjectKB_Class22593] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "abstractedInto")
+	(property_list [AIW_ProjectKB_Class22594])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 150))
+
+([AIW_ProjectKB_Class22594] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22595]
+		[AIW_ProjectKB_Class22596]))
+
+([AIW_ProjectKB_Class22595] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class22596] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class22597] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "reference")
+	(property_list [AIW_ProjectKB_Class22598])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 270))
+
+([AIW_ProjectKB_Class22598] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22599]
+		[AIW_ProjectKB_Class22600]))
+
+([AIW_ProjectKB_Class22599] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class22600] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class22601] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "valueType")
+	(property_list [AIW_ProjectKB_Class22602])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget")
+	(width 200)
+	(x 0)
+	(y 90))
+
+([AIW_ProjectKB_Class22602] of  Property_List
+)
+
+([AIW_ProjectKB_Class22603] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxGapUnits")
+	(property_list [AIW_ProjectKB_Class22604])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 300)
+	(y 90))
+
+([AIW_ProjectKB_Class22604] of  Property_List
+)
+
+([AIW_ProjectKB_Class22605] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxGap")
+	(property_list [AIW_ProjectKB_Class22606])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 200)
+	(y 90))
+
+([AIW_ProjectKB_Class22606] of  Property_List
+)
+
+([AIW_ProjectKB_Class22882] of  Widget
+
+	(is_hidden FALSE)
+	(name "HCPCSProcedureCodeCls")
+	(property_list [AIW_ProjectKB_Class22885])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([AIW_ProjectKB_Class22885] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22886]
+		[AIW_ProjectKB_Class22887]
+		[AIW_ProjectKB_Class22891]
+		[AIW_ProjectKB_Class22893]
+		[AIW_ProjectKB_Class22897]
+		[AIW_ProjectKB_Class22901]
+		[AIW_ProjectKB_Class22903]
+		[AIW_ProjectKB_Class22907]
+		[AIW_ProjectKB_Class22911]
+		[AIW_ProjectKB_Class22913]
+		[AIW_ProjectKB_Class22915]
+		[AIW_ProjectKB_Class22917]
+		[AIW_ProjectKB_Class22921]
+		[AIW_ProjectKB_Class22925]
+		[AIW_ProjectKB_Class22929]
+		[AIW_ProjectKB_Class22933]))
+
+([AIW_ProjectKB_Class22886] of  Property_List
+
+	(name "layout properties"))
+
+([AIW_ProjectKB_Class22887] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "isA")
+	(property_list [AIW_ProjectKB_Class22888])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 90))
+
+([AIW_ProjectKB_Class22888] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22889]
+		[AIW_ProjectKB_Class22890]))
+
+([AIW_ProjectKB_Class22889] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class22890] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class22891] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(name "inDataSource")
+	(property_list [AIW_ProjectKB_Class22892])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([AIW_ProjectKB_Class22892] of  Property_List
+)
+
+([AIW_ProjectKB_Class22893] of  Widget
+
+	(height 70)
+	(is_hidden FALSE)
+	(name "term")
+	(property_list [AIW_ProjectKB_Class22894])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 130))
+
+([AIW_ProjectKB_Class22894] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22895]
+		[AIW_ProjectKB_Class22896]))
+
+([AIW_ProjectKB_Class22895] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class22896] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class22897] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "property")
+	(property_list [AIW_ProjectKB_Class22898])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 90))
+
+([AIW_ProjectKB_Class22898] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22899]
+		[AIW_ProjectKB_Class22900]))
+
+([AIW_ProjectKB_Class22899] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class22900] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class22901] of  Widget
+
+	(height 80)
+	(is_hidden FALSE)
+	(name "documentation")
+	(property_list [AIW_ProjectKB_Class22902])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 600)
+	(x 0)
+	(y 340))
+
+([AIW_ProjectKB_Class22902] of  Property_List
+)
+
+([AIW_ProjectKB_Class22903] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "inverseIsA")
+	(property_list [AIW_ProjectKB_Class22904])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 210))
+
+([AIW_ProjectKB_Class22904] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22905]
+		[AIW_ProjectKB_Class22906]))
+
+([AIW_ProjectKB_Class22905] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class22906] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class22907] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Solid")
+	(name "solid")
+	(property_list [AIW_ProjectKB_Class22908])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 70)
+	(x 330)
+	(y 60))
+
+([AIW_ProjectKB_Class22908] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22909]
+		[AIW_ProjectKB_Class22910]))
+
+([AIW_ProjectKB_Class22909] of  String
+
+	(name "tooltip_text"))
+
+([AIW_ProjectKB_Class22910] of  Boolean
+
+	(boolean_value TRUE)
+	(name "readOnly_configured"))
+
+([AIW_ProjectKB_Class22911] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "displayName")
+	(property_list [AIW_ProjectKB_Class22912])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([AIW_ProjectKB_Class22912] of  Property_List
+)
+
+([AIW_ProjectKB_Class22913] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "abbrevDisplayName")
+	(property_list [AIW_ProjectKB_Class22914])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([AIW_ProjectKB_Class22914] of  Property_List
+)
+
+([AIW_ProjectKB_Class22915] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name ":NAME")
+	(property_list [AIW_ProjectKB_Class22916])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([AIW_ProjectKB_Class22916] of  Property_List
+)
+
+([AIW_ProjectKB_Class22917] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Concatenable")
+	(name "concatenable")
+	(property_list [AIW_ProjectKB_Class22918])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 200)
+	(x 200)
+	(y 60))
+
+([AIW_ProjectKB_Class22918] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22919]
+		[AIW_ProjectKB_Class22920]))
+
+([AIW_ProjectKB_Class22919] of  String
+
+	(name "tooltip_text"))
+
+([AIW_ProjectKB_Class22920] of  Boolean
+
+	(boolean_value TRUE)
+	(name "readOnly_configured"))
+
+([AIW_ProjectKB_Class22921] of  Widget
+
+	(height 70)
+	(is_hidden FALSE)
+	(name "abstractedInto")
+	(property_list [AIW_ProjectKB_Class22922])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 60))
+
+([AIW_ProjectKB_Class22922] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22923]
+		[AIW_ProjectKB_Class22924]))
+
+([AIW_ProjectKB_Class22923] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class22924] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class22925] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "reference")
+	(property_list [AIW_ProjectKB_Class22926])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 210))
+
+([AIW_ProjectKB_Class22926] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22927]
+		[AIW_ProjectKB_Class22928]))
+
+([AIW_ProjectKB_Class22927] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class22928] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class22929] of  Widget
+
+	(height 70)
+	(is_hidden FALSE)
+	(name "partOf")
+	(property_list [AIW_ProjectKB_Class22930])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 270))
+
+([AIW_ProjectKB_Class22930] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22931]
+		[AIW_ProjectKB_Class22932]))
+
+([AIW_ProjectKB_Class22931] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class22932] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class22933] of  Widget
+
+	(height 70)
+	(is_hidden FALSE)
+	(name "hasPart")
+	(property_list [AIW_ProjectKB_Class22934])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 200))
+
+([AIW_ProjectKB_Class22934] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class22935]
+		[AIW_ProjectKB_Class22936]))
+
+([AIW_ProjectKB_Class22935] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class22936] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class23] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class24])
+	(widget_class_name "uk.ac.man.ac.mig.coode.individuals.ui.OWLDLIndividualsTab"))
+
+([AIW_ProjectKB_Class24] of  Property_List
+)
+
+([AIW_ProjectKB_Class25] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class26])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesAndInstancesTab"))
+
+([AIW_ProjectKB_Class26] of  Property_List
+)
+
+([AIW_ProjectKB_Class27] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class28])
+	(widget_class_name "edu.stanford.smi.protegex.evaluation.MetaAnalysis"))
+
+([AIW_ProjectKB_Class28] of  Property_List
+)
+
+([AIW_ProjectKB_Class29] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class30])
+	(widget_class_name "org.protege.owl.mm.protege3.MappingMasterTab"))
+
+([AIW_ProjectKB_Class3] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class4])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadatatab.OWLMetadataTab"))
+
+([AIW_ProjectKB_Class30] of  Property_List
+)
+
+([AIW_ProjectKB_Class30081] of  String
+
+	(name ":INSTANCE-ANNOTATION")
+	(string_value "%3AANNOTATION-TEXT"))
+
+([AIW_ProjectKB_Class30082] of  String
+
+	(name ":PAL-CONSTRAINT")
+	(string_value "%3APAL-NAME"))
+
+([AIW_ProjectKB_Class30083] of  String
+
+	(name ":META-CLASS")
+	(string_value "%3ANAME"))
+
+([AIW_ProjectKB_Class30113] of  Property_List
+)
+
+([AIW_ProjectKB_Class30114] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "mins1f2")
+	(property_list [AIW_ProjectKB_Class30115])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 0)
+	(y 260))
+
+([AIW_ProjectKB_Class30115] of  Property_List
+)
+
+([AIW_ProjectKB_Class30116] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxf1s2")
+	(property_list [AIW_ProjectKB_Class30117])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 210)
+	(y 320))
+
+([AIW_ProjectKB_Class30117] of  Property_List
+)
+
+([AIW_ProjectKB_Class30118] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxs1f2")
+	(property_list [AIW_ProjectKB_Class30119])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 210)
+	(y 260))
+
+([AIW_ProjectKB_Class30119] of  Property_List
+)
+
+([AIW_ProjectKB_Class30120] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "rhs")
+	(property_list [AIW_ProjectKB_Class30121])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 410)
+	(x 0)
+	(y 140))
+
+([AIW_ProjectKB_Class30121] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class30122]
+		[AIW_ProjectKB_Class30123]))
+
+([AIW_ProjectKB_Class30122] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class30123] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class30124] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "maxs1s2")
+	(property_list [AIW_ProjectKB_Class30125])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 210)
+	(y 200))
+
+([AIW_ProjectKB_Class30125] of  Property_List
+)
+
+([AIW_ProjectKB_Class31] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class32])
+	(widget_class_name "edu.stanford.smi.protege.query.LuceneQueryPlugin"))
+
+([AIW_ProjectKB_Class32] of  Property_List
+)
+
+([AIW_ProjectKB_Class33] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class34])
+	(widget_class_name "uk.ac.man.cs.mig.coode.owlviz.ui.OWLVizTab"))
+
+([AIW_ProjectKB_Class34] of  Property_List
+)
+
+([AIW_ProjectKB_Class35] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class36])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.cls.OWLClassesTab"))
+
+([AIW_ProjectKB_Class36] of  Property_List
+)
+
+([AIW_ProjectKB_Class37] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class38])
+	(widget_class_name "edu.stanford.smi.RemoteKBTab.UMLSTab"))
+
+([AIW_ProjectKB_Class38] of  Property_List
+)
+
+([AIW_ProjectKB_Class39] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class40])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.individuals.OWLIndividualsTab"))
+
+([AIW_ProjectKB_Class4] of  Property_List
+)
+
+([AIW_ProjectKB_Class40] of  Property_List
+)
+
+([AIW_ProjectKB_Class40084] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "property")
+	(property_list [AIW_ProjectKB_Class40085])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([AIW_ProjectKB_Class40085] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class40086]
+		[AIW_ProjectKB_Class40087]))
+
+([AIW_ProjectKB_Class40086] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class40087] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class40088] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "valComp")
+	(property_list [AIW_ProjectKB_Class40089])
+	(widget_class_name "edu.stanford.smi.protege.widget.ComboBoxWidget")
+	(width 100)
+	(x 200)
+	(y 60))
+
+([AIW_ProjectKB_Class40089] of  Property_List
+)
+
+([AIW_ProjectKB_Class40090] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "value")
+	(property_list [AIW_ProjectKB_Class40091])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 300)
+	(x 0)
+	(y 120))
+
+([AIW_ProjectKB_Class40091] of  Property_List
+)
+
+([AIW_ProjectKB_Class40092] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name ":NAME")
+	(property_list [AIW_ProjectKB_Class40093])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 300)
+	(x 0)
+	(y 0))
+
+([AIW_ProjectKB_Class40093] of  Property_List
+)
+
+([AIW_ProjectKB_Class40163] of  Widget
+
+	(is_hidden FALSE)
+	(name "CPTProcedureCodeCls")
+	(property_list [AIW_ProjectKB_Class40166])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([AIW_ProjectKB_Class40166] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class40167]
+		[AIW_ProjectKB_Class40168]
+		[AIW_ProjectKB_Class40172]
+		[AIW_ProjectKB_Class40174]
+		[AIW_ProjectKB_Class40178]
+		[AIW_ProjectKB_Class40182]
+		[AIW_ProjectKB_Class40184]
+		[AIW_ProjectKB_Class40188]
+		[AIW_ProjectKB_Class40192]
+		[AIW_ProjectKB_Class40194]
+		[AIW_ProjectKB_Class40196]
+		[AIW_ProjectKB_Class40198]
+		[AIW_ProjectKB_Class40202]
+		[AIW_ProjectKB_Class40206]
+		[AIW_ProjectKB_Class40210]
+		[AIW_ProjectKB_Class40214]))
+
+([AIW_ProjectKB_Class40167] of  Property_List
+
+	(name "layout properties"))
+
+([AIW_ProjectKB_Class40168] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "isA")
+	(property_list [AIW_ProjectKB_Class40169])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 120))
+
+([AIW_ProjectKB_Class40169] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class40170]
+		[AIW_ProjectKB_Class40171]))
+
+([AIW_ProjectKB_Class40170] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class40171] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class40172] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(name "inDataSource")
+	(property_list [AIW_ProjectKB_Class40173])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 200)
+	(x 400)
+	(y 60))
+
+([AIW_ProjectKB_Class40173] of  Property_List
+)
+
+([AIW_ProjectKB_Class40174] of  Widget
+
+	(height 70)
+	(is_hidden FALSE)
+	(name "term")
+	(property_list [AIW_ProjectKB_Class40175])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 160))
+
+([AIW_ProjectKB_Class40175] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class40176]
+		[AIW_ProjectKB_Class40177]))
+
+([AIW_ProjectKB_Class40176] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class40177] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class40178] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "property")
+	(property_list [AIW_ProjectKB_Class40179])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([AIW_ProjectKB_Class40179] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class40180]
+		[AIW_ProjectKB_Class40181]))
+
+([AIW_ProjectKB_Class40180] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class40181] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class40182] of  Widget
+
+	(height 80)
+	(is_hidden FALSE)
+	(name "documentation")
+	(property_list [AIW_ProjectKB_Class40183])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 600)
+	(x 0)
+	(y 360))
+
+([AIW_ProjectKB_Class40183] of  Property_List
+)
+
+([AIW_ProjectKB_Class40184] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "inverseIsA")
+	(property_list [AIW_ProjectKB_Class40185])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 240))
+
+([AIW_ProjectKB_Class40185] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class40186]
+		[AIW_ProjectKB_Class40187]))
+
+([AIW_ProjectKB_Class40186] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class40187] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class40188] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Solid")
+	(name "solid")
+	(property_list [AIW_ProjectKB_Class40189])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 70)
+	(x 330)
+	(y 60))
+
+([AIW_ProjectKB_Class40189] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class40190]
+		[AIW_ProjectKB_Class40191]))
+
+([AIW_ProjectKB_Class40190] of  String
+
+	(name "tooltip_text"))
+
+([AIW_ProjectKB_Class40191] of  Boolean
+
+	(boolean_value TRUE)
+	(name "readOnly_configured"))
+
+([AIW_ProjectKB_Class40192] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "displayName")
+	(property_list [AIW_ProjectKB_Class40193])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([AIW_ProjectKB_Class40193] of  Property_List
+)
+
+([AIW_ProjectKB_Class40194] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "abbrevDisplayName")
+	(property_list [AIW_ProjectKB_Class40195])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([AIW_ProjectKB_Class40195] of  Property_List
+)
+
+([AIW_ProjectKB_Class40196] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name ":NAME")
+	(property_list [AIW_ProjectKB_Class40197])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 400)
+	(x 0)
+	(y 0))
+
+([AIW_ProjectKB_Class40197] of  Property_List
+)
+
+([AIW_ProjectKB_Class40198] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Concatenable")
+	(name "concatenable")
+	(property_list [AIW_ProjectKB_Class40199])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 200)
+	(x 200)
+	(y 60))
+
+([AIW_ProjectKB_Class40199] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class40200]
+		[AIW_ProjectKB_Class40201]))
+
+([AIW_ProjectKB_Class40200] of  String
+
+	(name "tooltip_text"))
+
+([AIW_ProjectKB_Class40201] of  Boolean
+
+	(boolean_value TRUE)
+	(name "readOnly_configured"))
+
+([AIW_ProjectKB_Class40202] of  Widget
+
+	(height 70)
+	(is_hidden FALSE)
+	(name "abstractedInto")
+	(property_list [AIW_ProjectKB_Class40203])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 90))
+
+([AIW_ProjectKB_Class40203] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class40204]
+		[AIW_ProjectKB_Class40205]))
+
+([AIW_ProjectKB_Class40204] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class40205] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class40206] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "reference")
+	(property_list [AIW_ProjectKB_Class40207])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 240))
+
+([AIW_ProjectKB_Class40207] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class40208]
+		[AIW_ProjectKB_Class40209]))
+
+([AIW_ProjectKB_Class40208] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class40209] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class40210] of  Widget
+
+	(height 70)
+	(is_hidden FALSE)
+	(name "partOf")
+	(property_list [AIW_ProjectKB_Class40211])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 300))
+
+([AIW_ProjectKB_Class40211] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class40212]
+		[AIW_ProjectKB_Class40213]))
+
+([AIW_ProjectKB_Class40212] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class40213] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class40214] of  Widget
+
+	(height 70)
+	(is_hidden FALSE)
+	(name "hasPart")
+	(property_list [AIW_ProjectKB_Class40215])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 230))
+
+([AIW_ProjectKB_Class40215] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class40216]
+		[AIW_ProjectKB_Class40217]))
+
+([AIW_ProjectKB_Class40216] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class40217] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class41] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class42])
+	(widget_class_name "edu.stanford.smi.protegex.changeanalysis.ChangeAnalysisTab"))
+
+([AIW_ProjectKB_Class42] of  Property_List
+)
+
+([AIW_ProjectKB_Class43] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class44])
+	(widget_class_name "org.algernon.kb.okbc.protege.plugins.AlgernonTab"))
+
+([AIW_ProjectKB_Class44] of  Property_List
+)
+
+([AIW_ProjectKB_Class45] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class46])
+	(widget_class_name "TGViztab.TGVizTab"))
+
+([AIW_ProjectKB_Class46] of  Property_List
+)
+
+([AIW_ProjectKB_Class47] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class48])
+	(widget_class_name "edu.stanford.smi.protegex.changes.changesKBViewTab.ChangesKBViewTab"))
+
+([AIW_ProjectKB_Class48] of  Property_List
+)
+
+([AIW_ProjectKB_Class49] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class50])
+	(widget_class_name "edu.stanford.smi.protege.widget.KAToolTab"))
+
+([AIW_ProjectKB_Class5] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class6])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.OWLPropertiesTab"))
+
+([AIW_ProjectKB_Class50] of  Property_List
+)
+
+([AIW_ProjectKB_Class50203] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "propertyConstraints")
+	(property_list [AIW_ProjectKB_Class50204])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 120))
+
+([AIW_ProjectKB_Class50204] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class50205]
+		[AIW_ProjectKB_Class50206]))
+
+([AIW_ProjectKB_Class50205] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class50206] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class51] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class52])
+	(widget_class_name "edu.stanford.smi.protegex.xml.tab.XMLTab"))
+
+([AIW_ProjectKB_Class52] of  Property_List
+)
+
+([AIW_ProjectKB_Class53] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class54])
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.PalQueriesTab"))
+
+([AIW_ProjectKB_Class54] of  Property_List
+)
+
+([AIW_ProjectKB_Class55] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class56])
+	(widget_class_name "edu.stanford.smi.protegex.chatPlugin.ChatTab"))
+
+([AIW_ProjectKB_Class56] of  Property_List
+)
+
+([AIW_ProjectKB_Class57] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class58])
+	(widget_class_name "org.protege.owl.axiome.ui.AxiomeTab"))
+
+([AIW_ProjectKB_Class58] of  Property_List
+)
+
+([AIW_ProjectKB_Class59] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class60])
+	(widget_class_name "edu.stanford.smi.protege.keywordsearch.StringSearch"))
+
+([AIW_ProjectKB_Class6] of  Property_List
+)
+
+([AIW_ProjectKB_Class60] of  Property_List
+)
+
+([AIW_ProjectKB_Class61] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class62])
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.OWLFormsTab"))
+
+([AIW_ProjectKB_Class62] of  Property_List
+)
+
+([AIW_ProjectKB_Class63] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class64])
+	(widget_class_name "script.ProtegeScriptTab"))
+
+([AIW_ProjectKB_Class64] of  Property_List
+)
+
+([AIW_ProjectKB_Class65] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class66])
+	(widget_class_name "edu.stanford.smi.protegex.changes.ChangesTab"))
+
+([AIW_ProjectKB_Class66] of  Property_List
+)
+
+([AIW_ProjectKB_Class67] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class68])
+	(widget_class_name "edu.stanford.smi.protegex.owl.swrl.ui.tab.SWRLTab"))
+
+([AIW_ProjectKB_Class68] of  Property_List
+)
+
+([AIW_ProjectKB_Class69] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class70])
+	(widget_class_name "edu.stanford.smi.protegex.fctab.FacetConstraintsTab"))
+
+([AIW_ProjectKB_Class7] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class8])
+	(widget_class_name "edu.stanford.smi.protege.widget.ProtegePropertiesTab"))
+
+([AIW_ProjectKB_Class70] of  Property_List
+)
+
+([AIW_ProjectKB_Class71] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class72])
+	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.KnowledgeTreeTab"))
+
+([AIW_ProjectKB_Class72] of  Property_List
+)
+
+([AIW_ProjectKB_Class73] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class74])
+	(widget_class_name "edu.stanford.smi.protegex.datamaster.DataMasterTab"))
+
+([AIW_ProjectKB_Class74] of  Property_List
+)
+
+([AIW_ProjectKB_Class75] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class76])
+	(widget_class_name "dfki.protege.ontoviz_tab.OntovizTab"))
+
+([AIW_ProjectKB_Class76] of  Property_List
+)
+
+([AIW_ProjectKB_Class77] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class78])
+	(widget_class_name "edu.stanford.smi.protegex.changes.stats.ChangeStatisticsTab"))
+
+([AIW_ProjectKB_Class78] of  Property_List
+)
+
+([AIW_ProjectKB_Class79] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class80])
+	(widget_class_name "edu.stanford.smi.protegex.prompt.PromptTab"))
+
+([AIW_ProjectKB_Class8] of  Property_List
+)
+
+([AIW_ProjectKB_Class80] of  Property_List
+)
+
+([AIW_ProjectKB_Class81] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(label "Concatenable")
+	(name "concatenable")
+	(property_list [AIW_ProjectKB_Class82])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 120)
+	(x 200)
+	(y 60))
+
+([AIW_ProjectKB_Class82] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class83]
+		[AIW_ProjectKB_Class10084]))
+
+([AIW_ProjectKB_Class83] of  String
+
+	(name "tooltip_text"))
+
+([AIW_ProjectKB_Class84] of  Widget
+
+	(is_hidden FALSE)
+	(name "Constant")
+	(property_list [AIW_ProjectKB_Class85])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([AIW_ProjectKB_Class85] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class86]
+		[AIW_ProjectKB_Class87]
+		[AIW_ProjectKB_Class91]
+		[AIW_ProjectKB_Class93]
+		[AIW_ProjectKB_Class97]
+		[AIW_ProjectKB_Class101]
+		[AIW_ProjectKB_Class103]
+		[AIW_ProjectKB_Class107]
+		[AIW_ProjectKB_Class109]
+		[AIW_ProjectKB_Class10111]
+		[AIW_ProjectKB_Class10113]
+		[AIW_ProjectKB_Class81]
+		[AIW_ProjectKB_Class20263]
+		[AIW_ProjectKB_Class20267]))
+
+([AIW_ProjectKB_Class86] of  Property_List
+
+	(name "layout properties"))
+
+([AIW_ProjectKB_Class87] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "isA")
+	(property_list [AIW_ProjectKB_Class88])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 200)
+	(y 120))
+
+([AIW_ProjectKB_Class88] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class89]
+		[AIW_ProjectKB_Class90]))
+
+([AIW_ProjectKB_Class89] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class9] of  Widget
+
+	(is_hidden TRUE)
+	(property_list [AIW_ProjectKB_Class10])
+	(widget_class_name "uk.ac.man.cs.mig.coode.debugger.test.DebuggerTestTab"))
+
+([AIW_ProjectKB_Class90] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class91] of  Widget
+
+	(height 30)
+	(is_hidden FALSE)
+	(name "inDataSource")
+	(property_list [AIW_ProjectKB_Class92])
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(width 200)
+	(x 400)
+	(y 60))
+
+([AIW_ProjectKB_Class92] of  Property_List
+)
+
+([AIW_ProjectKB_Class93] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "term")
+	(property_list [AIW_ProjectKB_Class94])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 400)
+	(y 240))
+
+([AIW_ProjectKB_Class94] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class95]
+		[AIW_ProjectKB_Class96]))
+
+([AIW_ProjectKB_Class95] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([AIW_ProjectKB_Class96] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([AIW_ProjectKB_Class97] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "property")
+	(property_list [AIW_ProjectKB_Class98])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([AIW_ProjectKB_Class98] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class99]
+		[AIW_ProjectKB_Class100]))
+
+([AIW_ProjectKB_Class99] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([ANNOTATED_INSTANCE_WIDGET] of  Widget
+
+	(name ":ANNOTATED-INSTANCE"))
+
+([ANNOTATION_TEXT_WIDGET] of  Widget
+
+	(height 100)
+	(is_hidden FALSE)
+	(name ":ANNOTATION-TEXT")
+	(widget_class_name "edu.stanford.smi.protege.widget.YellowStickyWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([BROWSER_SLOT_NAMES] of  Property_List
+
+	(properties
+		[AIW_ProjectKB_Class30081]
+		[AIW_ProjectKB_Class30082]
+		[AIW_ProjectKB_Class30083]))
+
+([CLSES_TAB] of  Widget
+
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesTab"))
+
+([CREATION_TIMESTAMP_WIDGET] of  Widget
+
+	(name ":CREATION-TIMESTAMP"))
+
+([CREATOR_WIDGET] of  Widget
+
+	(name ":CREATOR"))
+
+([FORMS_TAB] of  Widget
+
+	(widget_class_name "edu.stanford.smi.protege.widget.FormsTab"))
+
+([INSTANCE_ANNOTATION_FORM_WIDGET] of  Widget
+
+	(height 476)
+	(is_hidden FALSE)
+	(name ":INSTANCE-ANNOTATION")
+	(property_list [INSTANCE_ANNOTATION_PROPERTY_LIST])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 603)
+	(x 0)
+	(y 0))
+
+([INSTANCE_ANNOTATION_PROPERTY_LIST] of  Property_List
+
+	(properties
+		[ANNOTATED_INSTANCE_WIDGET]
+		[CREATOR_WIDGET]
+		[CREATION_TIMESTAMP_WIDGET]
+		[ANNOTATION_TEXT_WIDGET]))
+
+([INSTANCES_TAB] of  Widget
+
+	(widget_class_name "edu.stanford.smi.protege.widget.InstancesTab"))
+
+([KB_495177_Class0] of  String
+
+	(name "driver")
+	(string_value "com.mysql.jdbc.Driver"))
+
+([KB_495177_Class1] of  String
+
+	(name "url")
+	(string_value "jdbc:mysql://localhost:3307/protege_3_4_7"))
+
+([KB_495177_Class100] of  Property_List
+)
+
+([KB_495177_Class101] of  Property_List
+)
+
+([KB_495177_Class102] of  Property_List
+)
+
+([KB_495177_Class103] of  Property_List
+)
+
+([KB_495177_Class104] of  Property_List
+)
+
+([KB_495177_Class105] of  Property_List
+)
+
+([KB_495177_Class106] of  Property_List
+)
+
+([KB_495177_Class107] of  Property_List
+)
+
+([KB_495177_Class108] of  Property_List
+)
+
+([KB_495177_Class109] of  Property_List
+
+	(properties [AIW_ProjectKB_Class110]))
+
+([KB_495177_Class2] of  String
+
+	(name "table")
+	(string_value "AIW"))
+
+([KB_495177_Class3] of  String
+
+	(name "username")
+	(string_value "protegeuser"))
+
+([KB_495177_Class4] of  String
+
+	(name "password")
+	(string_value "iQffJFGE"))
+
+([KB_495177_Class5] of  String
+
+	(name "factory_class_name")
+	(string_value "edu.stanford.smi.protege.storage.database.DatabaseKnowledgeBaseFactory"))
+
+([KB_495177_Class6] of  Map
+)
+
+([KB_495177_Class88] of  Property_List
+
+	(properties
+		[KB_495177_Class89]
+		[KB_495177_Class90]))
+
+([KB_495177_Class89] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([KB_495177_Class90] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([KB_495177_Class91] of  Property_List
+)
+
+([KB_495177_Class92] of  Property_List
+)
+
+([KB_495177_Class93] of  Property_List
+
+	(properties
+		[KB_495177_Class94]
+		[KB_495177_Class95]))
+
+([KB_495177_Class94] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move up"))
+
+([KB_495177_Class95] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move down"))
+
+([KB_495177_Class96] of  Property_List
+)
+
+([KB_495177_Class97] of  Property_List
+
+	(name "layout properties"))
+
+([KB_495177_Class98] of  Property_List
+)
+
+([KB_495177_Class99] of  Property_List
+)
+
+([KB_802107_Class0] of  Map
+)
+
+([LAYOUT_PROPERTIES] of  Property_List
+
+	(name "layout properties")
+	(properties [VERTICAL_STRETCHER]))
+
+([option_instance] of  Options
+
+	(confirm_on_remove FALSE)
+	(display_abstract_class_icon TRUE)
+	(display_hidden_classes TRUE)
+	(display_multi_parent_class_icon TRUE)
+	(is_readonly FALSE)
+	(undo_enabled TRUE)
+	(update_modification_slots FALSE))
+
+([PAL_DESCRIPTION_WIDGET] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(label "Description")
+	(name ":PAL-DESCRIPTION")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(width 250)
+	(x 275)
+	(y 0))
+
+([PAL_FORM_WIDGET] of  Widget
+
+	(height 476)
+	(is_hidden FALSE)
+	(name ":PAL-CONSTRAINT")
+	(property_list [PAL_PROPERTY_LIST])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(width 603)
+	(x 0)
+	(y 0))
+
+([PAL_NAME_WIDGET] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(label "Name")
+	(name ":PAL-NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 275)
+	(x 0)
+	(y 0))
+
+([PAL_PROPERTY_LIST] of  Property_List
+
+	(properties
+		[PAL_NAME_WIDGET]
+		[PAL_RANGE_WIDGET]
+		[PAL_DESCRIPTION_WIDGET]
+		[PAL_STATEMENT_WIDGET]))
+
+([PAL_RANGE_WIDGET] of  Widget
+
+	(height 180)
+	(is_hidden FALSE)
+	(label "Range")
+	(name ":PAL-RANGE")
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.constraint.PalRangeWidget")
+	(width 250)
+	(x 275)
+	(y 180))
+
+([PAL_STATEMENT_WIDGET] of  Widget
+
+	(height 300)
+	(is_hidden FALSE)
+	(label "Statement")
+	(name ":PAL-STATEMENT")
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.constraint.PalConstraintWidget")
+	(width 275)
+	(x 0)
+	(y 60))
+
+([PROJECT] of  Project
+
+	(browser_slot_names [BROWSER_SLOT_NAMES])
+	(customized_instance_widgets
+		[AIW_ProjectKB_Class20081]
+		[AIW_ProjectKB_Class20271]
+		[AIW_ProjectKB_Class84]
+		[STANDARD_FACET_FORM_WIDGET]
+		[AIW_ProjectKB_Class20187]
+		[PAL_FORM_WIDGET]
+		[AIW_ProjectKB_Class20151]
+		[STANDARD_CLASS_FORM_WIDGET]
+		[AIW_ProjectKB_Class20327]
+		[AIW_ProjectKB_Class22882]
+		[INSTANCE_ANNOTATION_FORM_WIDGET]
+		[AIW_ProjectKB_Class10117]
+		[AIW_ProjectKB_Class20351]
+		[STANDARD_SLOT_FORM_WIDGET]
+		[AIW_ProjectKB_Class20113]
+		[AIW_ProjectKB_Class20215]
+		[AIW_ProjectKB_Class20450]
+		[AIW_ProjectKB_Class10158]
+		[AIW_ProjectKB_Class22074]
+		[AIW_ProjectKB_Class40163]
+		[AIW_ProjectKB_Class10081]
+		[AIW_ProjectKB_Class20162])
+	(default_cls_metaclass ":STANDARD-CLASS")
+	(default_facet_metaclass ":STANDARD-FACET")
+	(default_instance_widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(default_slot_metaclass ":STANDARD-SLOT")
+	(next_frame_number 0)
+	(options [option_instance])
+	(property_map [KB_495177_Class6])
+	(sources [SOURCES])
+	(tabs
+		[CLSES_TAB]
+		[SLOTS_TAB]
+		[FORMS_TAB]
+		[INSTANCES_TAB]
+		[QUERIES_TAB]))
+
+([QUERIES_TAB] of  Widget
+
+	(property_list [KB_495177_Class109])
+	(widget_class_name "edu.stanford.smi.protegex.queries_tab.QueriesTab"))
+
+([SLOTS_TAB] of  Widget
+
+	(widget_class_name "edu.stanford.smi.protege.widget.SlotsTab"))
+
+([SOURCES] of  Property_List
+
+	(properties
+		[KB_495177_Class0]
+		[KB_495177_Class1]
+		[KB_495177_Class2]
+		[KB_495177_Class3]
+		[KB_495177_Class4]
+		[KB_495177_Class5]))
+
+([STANDARD_CLASS_CONSTRAINTS_WIDGET] of  Widget
+
+	(height 120)
+	(label "Constraints")
+	(name ":SLOT-CONSTRAINTS")
+	(property_list [KB_495177_Class88])
+	(widget_class_name "edu.stanford.smi.protege.widget.ConstraintsWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([STANDARD_CLASS_DIRECT_INSTANCES_WIDGET] of  Widget
+
+	(name ":DIRECT-INSTANCES"))
+
+([STANDARD_CLASS_DIRECT_SUBCLASSES_WIDGET] of  Widget
+
+	(name ":DIRECT-SUBCLASSES"))
+
+([STANDARD_CLASS_DIRECT_SUPERCLASSES_WIDGET] of  Widget
+
+	(name ":DIRECT-SUPERCLASSES"))
+
+([STANDARD_CLASS_DIRECT_TYPE_WIDGET] of  Widget
+
+	(name ":DIRECT-TYPE"))
+
+([STANDARD_CLASS_DOCUMENTATION_WIDGET] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(property_list [KB_495177_Class91])
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([STANDARD_CLASS_FORM_WIDGET] of  Widget
+
+	(name ":STANDARD-CLASS")
+	(property_list [STANDARD_CLASS_WIDGETS])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([STANDARD_CLASS_NAME_WIDGET] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(property_list [KB_495177_Class92])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([STANDARD_CLASS_ROLE_WIDGET] of  Widget
+
+	(height 60)
+	(label "Role")
+	(name ":ROLE")
+	(property_list [KB_495177_Class96])
+	(widget_class_name "edu.stanford.smi.protege.widget.RoleWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([STANDARD_CLASS_TEMPLATE_SLOTS_WIDGET] of  Widget
+
+	(height 150)
+	(label "Template Slots")
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(property_list [KB_495177_Class93])
+	(widget_class_name "edu.stanford.smi.protege.widget.TemplateSlotsWidget")
+	(width 600)
+	(x 0)
+	(y 120))
+
+([STANDARD_CLASS_WIDGETS] of  Property_List
+
+	(name "class widget properties")
+	(properties
+		[STANDARD_CLASS_CONSTRAINTS_WIDGET]
+		[STANDARD_CLASS_DIRECT_INSTANCES_WIDGET]
+		[STANDARD_CLASS_DIRECT_SUBCLASSES_WIDGET]
+		[STANDARD_CLASS_DIRECT_SUPERCLASSES_WIDGET]
+		[STANDARD_CLASS_DOCUMENTATION_WIDGET]
+		[STANDARD_CLASS_NAME_WIDGET]
+		[STANDARD_CLASS_ROLE_WIDGET]
+		[STANDARD_CLASS_DIRECT_TYPE_WIDGET]
+		[STANDARD_CLASS_TEMPLATE_SLOTS_WIDGET]
+		[LAYOUT_PROPERTIES]))
+
+([STANDARD_FACET_ASSOCIATED_SLOT_WIDGET] of  Widget
+
+	(height 60)
+	(label "Associated Slot")
+	(name ":ASSOCIATED-SLOT")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([STANDARD_FACET_DOCUMENTATION_WIDGET] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([STANDARD_FACET_FORM_WIDGET] of  Widget
+
+	(name ":STANDARD-FACET")
+	(property_list [STANDARD_FACET_WIDGETS])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([STANDARD_FACET_NAME_WIDGET] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([STANDARD_FACET_WIDGETS] of  Property_List
+
+	(name "facet widget properties")
+	(properties
+		[STANDARD_FACET_NAME_WIDGET]
+		[STANDARD_FACET_DOCUMENTATION_WIDGET]
+		[STANDARD_FACET_ASSOCIATED_SLOT_WIDGET]))
+
+([STANDARD_SLOT_ASSOCIATED_FACET_WIDGET] of  Widget
+
+	(name ":ASSOCIATED-FACET"))
+
+([STANDARD_SLOT_CONSTRAINTS_WIDGET] of  Widget
+
+	(name ":SLOT-CONSTRAINTS"))
+
+([STANDARD_SLOT_DEFAULT_VALUE_WIDGET] of  Widget
+
+	(height 90)
+	(label "Default")
+	(name ":SLOT-DEFAULTS")
+	(property_list [KB_495177_Class100])
+	(widget_class_name "edu.stanford.smi.protege.widget.DefaultValuesWidget")
+	(width 200)
+	(x 400)
+	(y 90))
+
+([STANDARD_SLOT_DIRECT_DOMAIN_WIDGET] of  Widget
+
+	(height 95)
+	(label "Domain")
+	(name ":DIRECT-DOMAIN")
+	(property_list [KB_495177_Class98])
+	(widget_class_name "edu.stanford.smi.protege.widget.DirectDomainWidget")
+	(width 200)
+	(x 400)
+	(y 180))
+
+([STANDARD_SLOT_DIRECT_TYPE_WIDGET] of  Widget
+
+	(name ":DIRECT-TYPE"))
+
+([STANDARD_SLOT_DOCUMENTATION_WIDGET] of  Widget
+
+	(height 120)
+	(label "Documentation")
+	(name ":DOCUMENTATION")
+	(property_list [KB_495177_Class101])
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(x 200)
+	(y 0))
+
+([STANDARD_SLOT_FORM_WIDGET] of  Widget
+
+	(name ":STANDARD-SLOT")
+	(property_list [STANDARD_SLOT_WIDGETS])
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([STANDARD_SLOT_INVERSE_WIDGET] of  Widget
+
+	(height 60)
+	(label "Inverse Slot")
+	(name ":SLOT-INVERSE")
+	(property_list [KB_495177_Class107])
+	(widget_class_name "edu.stanford.smi.protege.widget.InverseSlotWidget")
+	(width 200)
+	(x 200)
+	(y 215))
+
+([STANDARD_SLOT_MAXIMUM_CARDINALITY_WIDGET] of  Widget
+
+	(height 35)
+	(name ":SLOT-MAXIMUM-CARDINALITY")
+	(property_list [KB_495177_Class106])
+	(widget_class_name "edu.stanford.smi.protege.widget.MaximumCardinalityWidget")
+	(width 200)
+	(x 200)
+	(y 180))
+
+([STANDARD_SLOT_MAXIMUM_VALUE_WIDGET] of  Widget
+
+	(height 60)
+	(label "Maximum")
+	(name ":SLOT-NUMERIC-MAXIMUM")
+	(property_list [KB_495177_Class102])
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMaximumWidget")
+	(width 100)
+	(x 100)
+	(y 215))
+
+([STANDARD_SLOT_MINIMUM_CARDINALITY_WIDGET] of  Widget
+
+	(height 60)
+	(label "Cardinality")
+	(name ":SLOT-MINIMUM-CARDINALITY")
+	(property_list [KB_495177_Class105])
+	(widget_class_name "edu.stanford.smi.protege.widget.MinimumCardinalityWidget")
+	(width 200)
+	(x 200)
+	(y 120))
+
+([STANDARD_SLOT_MINIMUM_VALUE_WIDGET] of  Widget
+
+	(height 60)
+	(label "Minimum")
+	(name ":SLOT-NUMERIC-MINIMUM")
+	(property_list [KB_495177_Class103])
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMinimumWidget")
+	(width 100)
+	(x 0)
+	(y 215))
+
+([STANDARD_SLOT_NAME_WIDGET] of  Widget
+
+	(height 60)
+	(label "Name")
+	(name ":NAME")
+	(property_list [KB_495177_Class104])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(x 0)
+	(y 0))
+
+([STANDARD_SLOT_SUBSLOTS_WIDGET] of  Widget
+
+	(name ":DIRECT-SUBSLOTS"))
+
+([STANDARD_SLOT_SUPERSLOTS_WIDGET] of  Widget
+
+	(name ":DIRECT-SUPERSLOTS"))
+
+([STANDARD_SLOT_TYPE_WIDGET] of  Widget
+
+	(height 155)
+	(label "Value Type")
+	(name ":SLOT-VALUE-TYPE")
+	(property_list [KB_495177_Class108])
+	(widget_class_name "edu.stanford.smi.protege.widget.ValueTypeWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([STANDARD_SLOT_VALUES_WIDGET] of  Widget
+
+	(height 90)
+	(label "Template Values")
+	(name ":SLOT-VALUES")
+	(property_list [KB_495177_Class99])
+	(widget_class_name "edu.stanford.smi.protege.widget.SlotValuesWidget")
+	(width 200)
+	(x 400)
+	(y 0))
+
+([STANDARD_SLOT_WIDGETS] of  Property_List
+
+	(name "slot widget properties")
+	(properties
+		[STANDARD_SLOT_MINIMUM_CARDINALITY_WIDGET]
+		[STANDARD_SLOT_MAXIMUM_CARDINALITY_WIDGET]
+		[STANDARD_SLOT_CONSTRAINTS_WIDGET]
+		[STANDARD_SLOT_DIRECT_TYPE_WIDGET]
+		[STANDARD_SLOT_DIRECT_DOMAIN_WIDGET]
+		[STANDARD_SLOT_VALUES_WIDGET]
+		[STANDARD_SLOT_SUPERSLOTS_WIDGET]
+		[STANDARD_SLOT_SUBSLOTS_WIDGET]
+		[STANDARD_SLOT_DEFAULT_VALUE_WIDGET]
+		[STANDARD_SLOT_DOCUMENTATION_WIDGET]
+		[STANDARD_SLOT_MAXIMUM_VALUE_WIDGET]
+		[STANDARD_SLOT_MINIMUM_VALUE_WIDGET]
+		[STANDARD_SLOT_ASSOCIATED_FACET_WIDGET]
+		[STANDARD_SLOT_NAME_WIDGET]
+		[STANDARD_SLOT_INVERSE_WIDGET]
+		[STANDARD_SLOT_TYPE_WIDGET]
+		[KB_495177_Class97]))
+
+([VERTICAL_STRETCHER] of  String
+
+	(name "vertical_stretcher")
+	(string_value ":DIRECT-TEMPLATE-SLOTS"))

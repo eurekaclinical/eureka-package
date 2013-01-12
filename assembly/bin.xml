@@ -14,6 +14,15 @@
                 <include>NOTICE*</include>
             </includes>
         </fileSet>
+        <fileSet>
+            <directory>src/main/resources</directory>
+            <outputDirectory>etc</outputDirectory>
+            <includes>
+                <include>AIW.pprj</include>
+                <include>aiw.sql</include>
+                <include>jaas.config</include>
+            </includes>
+        </fileSet>
     </fileSets>
     <dependencySets>
         <dependencySet>
