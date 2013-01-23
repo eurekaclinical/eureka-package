@@ -4496,7 +4496,7 @@
 ([KB_495177_Class1] of  String
 
 	(name "url")
-	(string_value "jdbc:mysql://localhost:3307/protege_3_4_7"))
+	(string_value "jdbc:mysql://localhost:3306/protege_3_4_7"))
 
 ([KB_495177_Class100] of  Property_List
 )
