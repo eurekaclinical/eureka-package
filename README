@@ -9,9 +9,6 @@ is sponsored by the CardioVascular Research Grid (CVRG), an NHLBI
 grant for creating informatics infrastructure in support of
 cardiovascular research.
 
-This package contains source code only. For binaries, please go to
-http://aiw.sourceforge.net/dev/eureka-1.6-SNAPSHOT.
-
 WHAT'S NEW
 
 Version 1.6 extends the rudimentary data element editing support
@@ -23,17 +20,13 @@ REQUIREMENTS
 
 The current version is known to work with Oracle Java 6. It is
 expected to work with OpenJDK 6 as well. It is incompatible with Java
-7.
-
-Eureka! Clinical Analytics uses the Maven build system, available from
-http://maven.apache.org. You must install maven, if you do not already
-have it, to work with the source code. We use Maven 3.
+7 due to incompatibility of some of its dependencies. We intend to support 
+Java 7 in a future release.
 
 INSTALLATION
 
-Once compiled, please see
-http://aiw.sourceforge.net/dev/eureka-1.6-SNAPSHOT for detailed
-instructions on installation and usage.
+Once downloaded and unpacked, please see http://aiw.sourceforge.net/ for 
+documentation on installation and usage.
 
 CONTACTING US
 
@@ -45,9 +38,9 @@ Eureka! Clinical Analytics is freely available as open source under
 the Apache License, Version 2.0. A copy of the license is in the
 LICENSE file provided in this distribution.
 
-Protempa is Copyright (C) 2012 Emory University.
+Eureka! Clinical Analytics is Copyright (C) 2012-2013 Emory University.
 
 MORE INFORMATION
 
-Please see http://aiw.sourceforge.net/dev/eureka-1.6-SNAPSHOT for
-technical documentation and more information.
+Please see http://aiw.sourceforge.net/dev/eureka-1.6 for developer 
+documentation.
