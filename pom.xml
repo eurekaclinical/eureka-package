@@ -21,8 +21,8 @@
     </properties>
     
     <scm>
-        <developerConnection>scm:svn:https://scm.cci.emory.edu/svn/protempa/trunk</developerConnection>
-        <url>https://scm.cci.emory.edu/svn/protempa/trunk</url>
+        <developerConnection>scm:svn:https://scm.cci.emory.edu/svn/aiw/trunk/cvrg/eureka-package</developerConnection>
+        <url>https://scm.cci.emory.edu/svn/aiw/trunk/cvrg/eureka-package</url>
     </scm>
     
     <issueManagement>
