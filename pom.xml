@@ -171,17 +171,12 @@
         <repository>
             <id>maven.cci</id>
             <name>Maven CCI Repository</name>
-            <url>http://maven.cci.emory.edu:8081/nexus/content/repositories/public</url>
+            <url>http://maven.cci.emory.edu/nexus/content/repositories/public</url>
         </repository>
         <repository>
             <id>aiw</id>
             <name>AIW Release Repository</name>
             <url>http://maven.cci.emory.edu/nexus/content/repositories/aiw/</url>
-        </repository>
-        <repository>
-            <id>aiw-snapshots</id>
-            <name>AIW Snapshot Repository</name>
-            <url>http://maven.cci.emory.edu/nexus/content/repositories/aiw-snapshots/</url>
         </repository>
     </repositories>
 
