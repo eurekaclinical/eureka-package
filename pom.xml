@@ -3,7 +3,7 @@
 
     <groupId>edu.emory.cci.aiw.cvrg</groupId>
     <artifactId>eureka-package</artifactId>
-    <version>1.6</version>
+    <version>1.7-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Eureka Package</name>
@@ -20,8 +20,8 @@
     </properties>
     
     <scm>
-        <developerConnection>scm:svn:https://scm.cci.emory.edu/svn/protempa/tags/eureka-package-1.6</developerConnection>
-        <url>https://scm.cci.emory.edu/svn/protempa/tags/eureka-package-1.6</url>
+        <developerConnection>scm:svn:https://scm.cci.emory.edu/svn/protempa/trunk</developerConnection>
+        <url>https://scm.cci.emory.edu/svn/protempa/trunk</url>
     </scm>
     
     <issueManagement>
