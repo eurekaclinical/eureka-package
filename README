@@ -1,5 +1,6 @@
-Eureka! Clinical Analytics 1.6 -- An ETL Tool for Loading Data into
-i2b2.  Center for Comprehensive Informatics, Emory University
+Eureka! Clinical Analytics 1.6.1 -- An ETL Tool for Loading Data into
+i2b2.
+Center for Comprehensive Informatics, Emory University
 
 OVERVIEW
 
@@ -10,6 +11,12 @@ grant for creating informatics infrastructure in support of
 cardiovascular research.
 
 WHAT'S NEW
+
+Version 1.6.1 is a bug fix release. It fixes the following issues:
+1) Registration verification email contains the wrong URL.
+2) In the data element editor, the property list is not populated 
+when editing a data element in which a property constraint already
+has been specified.
 
 Version 1.6 extends the rudimentary data element editing support
 provided in version 1.5 to provide a complete data element editor. You
@@ -42,5 +49,5 @@ Eureka! Clinical Analytics is Copyright (C) 2012-2013 Emory University.
 
 MORE INFORMATION
 
-Please see http://aiw.sourceforge.net/dev/eureka-1.6 for developer 
+Please see http://aiw.sourceforge.net/dev/eureka-1.6.1 for developer 
 documentation.
