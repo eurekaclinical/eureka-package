@@ -20,8 +20,8 @@
     </properties>
     
     <scm>
-        <developerConnection>scm:svn:https://scm.cci.emory.edu/svn/aiw/tags/eureka-package-1.6.1</developerConnection>
-        <url>https://scm.cci.emory.edu/svn/aiw/tags/eureka-package-1.6.1</url>
+        <developerConnection>scm:svn:https://scm.cci.emory.edu/svn/aiw/branches/eureka-package-1.6</developerConnection>
+        <url>https://scm.cci.emory.edu/svn/aiw/branches/eureka-package-1.6</url>
     </scm>
     
     <issueManagement>
