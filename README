@@ -1,4 +1,4 @@
-Eureka! Clinical Analytics 1.6 -- An ETL Tool for Loading Data into
+Eureka! Clinical Analytics ${project.version} -- An ETL Tool for Loading Data into
 i2b2.  Center for Comprehensive Informatics, Emory University
 
 OVERVIEW
@@ -11,7 +11,14 @@ cardiovascular research.
 
 WHAT'S NEW
 
-Version 1.6 extends the rudimentary data element editing support
+Version ${project.version} provides the following changes:
+
+- Liquibase support for database migrations.
+- Additional data element editor features. You can specify frequencies of
+consecutive data elements for any data element now. You also can specify
+value thresholds that are specific to a disease or condition.
+
+Version 1.6 extended the rudimentary data element editing support
 provided in version 1.5 to provide a complete data element editor. You
 can specify a relatively complete set of the temporal patterns that
 can be specified in the underlying Protempa software.
@@ -42,5 +49,5 @@ Eureka! Clinical Analytics is Copyright (C) 2012-2013 Emory University.
 
 MORE INFORMATION
 
-Please see http://aiw.sourceforge.net/dev/eureka-1.6 for developer 
+Please see http://aiw.sourceforge.net/dev/eureka-${project.version} for developer 
 documentation.

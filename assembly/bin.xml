@@ -10,9 +10,31 @@
             <outputDirectory></outputDirectory>
             <includes>
                 <include>README*</include>
+            </includes>
+            <filtered>true</filtered>
+        </fileSet>
+        <fileSet>
+            <directory></directory>
+            <outputDirectory></outputDirectory>
+            <includes>
                 <include>LICENSE*</include>
                 <include>NOTICE*</include>
             </includes>
+        </fileSet>
+        <fileSet>
+            <directory>liquibase-2</directory>
+            <excludes>
+                <exclude>liquibase-backend.properties</exclude>
+                <exclude>liquibase-services.properties</exclude>
+            </excludes>
+        </fileSet>
+        <fileSet>
+            <directory>liquibase-2</directory>
+            <includes>
+                <include>liquibase-backend.properties</include>
+                <include>liquibase-services.properties</include>
+            </includes>
+            <filtered>true</filtered>
         </fileSet>
         <fileSet>
             <directory>src/main/resources</directory>
@@ -24,6 +46,16 @@
             </includes>
         </fileSet>
     </fileSets>
+    <!--<files>
+        <file>
+            <source>liquibase-2/liquibase-backend.properties</source>
+            <filtered>true</filtered>
+        </file>
+        <file>
+            <source>liquibase-2/liquibase-services.properties</source>
+            <filtered>true</filtered>
+        </file>
+    </files>-->
     <dependencySets>
         <dependencySet>
             <outputDirectory>lib</outputDirectory>
