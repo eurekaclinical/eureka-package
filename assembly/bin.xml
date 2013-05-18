@@ -46,19 +46,10 @@
             </includes>
         </fileSet>
     </fileSets>
-    <!--<files>
-        <file>
-            <source>liquibase-2/liquibase-backend.properties</source>
-            <filtered>true</filtered>
-        </file>
-        <file>
-            <source>liquibase-2/liquibase-services.properties</source>
-            <filtered>true</filtered>
-        </file>
-    </files>-->
     <dependencySets>
         <dependencySet>
             <outputDirectory>lib</outputDirectory>
+            <useTransitiveDependencies>false</useTransitiveDependencies>
         </dependencySet>
     </dependencySets>
 </assembly>
