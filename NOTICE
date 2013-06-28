@@ -16,8 +16,8 @@ This project includes:
   Apache Log4j under The Apache Software License, Version 2.0
   Apache XML Security under The Apache Software License, Version 2.0
   avalon-framework under Apache License, Version 2.0
-  cas-server under Apache License, Version 2.0
-  Commons Codec under The Apache Software License, Version 2.0
+  CAS Server under Apache License, Version 2.0
+  Commons Codec under Apache License, Version 2.0
   Eureka Package under Apache License, Version 2.0
   Eureka Protempa ETL under Apache License, Version 2.0
   Eureka Services under Apache License, Version 2.0

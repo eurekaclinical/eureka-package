@@ -62,4 +62,10 @@
         <version>7.0.8</version>
         <license>Apache License, Version 2.0</license>
     </artifact>
+    <artifact>
+        <groupId>commons-codec</groupId>
+        <artifactId>commons-codec</artifactId>
+        <version>1.4</version>
+        <license>Apache License, Version 2.0</license>
+    </artifact>
 </license-lookup>
