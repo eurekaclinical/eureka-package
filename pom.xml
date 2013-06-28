@@ -3,7 +3,7 @@
 
     <groupId>edu.emory.cci.aiw.cvrg</groupId>
     <artifactId>eureka-package</artifactId>
-    <version>1.7-SNAPSHOT</version>
+    <version>1.7</version>
     <packaging>pom</packaging>
 
     <name>Eureka Package</name>
@@ -21,8 +21,8 @@
     </properties>
     
     <scm>
-        <developerConnection>scm:svn:https://scm.cci.emory.edu/svn/aiw/trunk/cvrg/eureka-package</developerConnection>
-        <url>https://scm.cci.emory.edu/svn/aiw/trunk/cvrg/eureka-package</url>
+        <developerConnection>scm:svn:https://scm.cci.emory.edu/svn/aiw/tags/eureka-package-1.7</developerConnection>
+        <url>https://scm.cci.emory.edu/svn/aiw/tags/eureka-package-1.7</url>
     </scm>
     
     <issueManagement>
@@ -191,21 +191,21 @@
         <dependency>
             <groupId>edu.emory.cci.aiw.cvrg</groupId>
             <artifactId>eureka-protempa-etl</artifactId>
-            <version>${project.version}</version>
+            <version>1.7</version>
             <scope>compile</scope>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>edu.emory.cci.aiw.cvrg</groupId>
             <artifactId>eureka-services</artifactId>
-            <version>${project.version}</version>
+            <version>1.7</version>
             <scope>compile</scope>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>edu.emory.cci.aiw.cvrg</groupId>
             <artifactId>eureka-webapp</artifactId>
-            <version>${project.version}</version>
+            <version>1.7</version>
             <scope>compile</scope>
             <type>war</type>
         </dependency>
