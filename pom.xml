@@ -184,28 +184,28 @@
         <dependency>
             <groupId>edu.emory.cci.cas</groupId>
             <artifactId>cas-server</artifactId>
-            <version>1.0</version>
+            <version>1.0.1</version>
             <scope>compile</scope>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>edu.emory.cci.aiw.cvrg</groupId>
             <artifactId>eureka-protempa-etl</artifactId>
-            <version>1.8-SNAPSHOT</version>
+            <version>1.8</version>
             <scope>compile</scope>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>edu.emory.cci.aiw.cvrg</groupId>
             <artifactId>eureka-services</artifactId>
-            <version>1.8-SNAPSHOT</version>
+            <version>1.8</version>
             <scope>compile</scope>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>edu.emory.cci.aiw.cvrg</groupId>
             <artifactId>eureka-webapp</artifactId>
-            <version>1.8-SNAPSHOT</version>
+            <version>1.8</version>
             <scope>compile</scope>
             <type>war</type>
         </dependency>
