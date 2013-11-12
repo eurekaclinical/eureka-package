@@ -3,7 +3,7 @@
 
     <groupId>edu.emory.cci.aiw.cvrg</groupId>
     <artifactId>eureka-package</artifactId>
-    <version>1.9-SNAPSHOT</version>
+    <version>1.8-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Eureka Package</name>
