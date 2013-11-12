@@ -13,10 +13,14 @@ WHAT'S NEW
 
 Version ${project.version} provides the following changes:
 
-- Liquibase support for database migrations.
-- Additional data element editor features. You can specify frequencies of
-consecutive data elements for any data element now. You also can specify
-value thresholds that are specific to a disease or condition.
+- Ability to directly connect to databases and data warehouses as sources of
+patient data
+- Improvements to the phenotype editor
+
+Version 1.7 added Liquibase support for database migrations and additional data
+element editor features. You can specify frequencies of consecutive data elements
+ for any data element now. You also can specify value thresholds that are 
+specific to a disease or condition.
 
 Version 1.6 extended the rudimentary data element editing support
 provided in version 1.5 to provide a complete data element editor. You
