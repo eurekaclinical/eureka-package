@@ -29,10 +29,8 @@ can be specified in the underlying Protempa software.
 
 REQUIREMENTS
 
-The current version is known to work with Oracle Java 6. It is
-expected to work with OpenJDK 6 as well. It is incompatible with Java
-7 due to incompatibility of some of its dependencies. We intend to support 
-Java 7 in a future release.
+The current version is known to work with Oracle Java 7. It is
+expected to work with OpenJDK 7 as well. 
 
 INSTALLATION
 
