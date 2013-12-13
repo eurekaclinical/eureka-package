@@ -21,8 +21,9 @@
     </properties>
     
     <scm>
-        <developerConnection>scm:svn:https://scm.cci.emory.edu/svn/aiw/tags/eureka-package-1.8</developerConnection>
-        <url>https://scm.cci.emory.edu/svn/aiw/tags/eureka-package-1.8</url>
+        <developerConnection>scm:git:ssh://git.cci.emory.edu:/opt/git/aiw/eureka-package.git</developerConnection>
+        <url>ssh://git.cci.emory.edu:/opt/git/aiw/eureka-package.git</url>
+        <tag>HEAD</tag>
     </scm>
     
     <issueManagement>
