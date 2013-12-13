@@ -13,6 +13,10 @@ WHAT'S NEW
 
 Version ${project.version} provides the following changes:
 
+- Minor bug-fixes.
+
+Version 1.8 provides the following changes:
+
 - Ability to directly connect to databases and data warehouses as sources of
 patient data
 - Improvements to the phenotype editor
