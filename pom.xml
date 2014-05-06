@@ -17,6 +17,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <eureka-version>1.9-SNAPSHOT</eureka-version>
         <oracle-version>11.2.0.3</oracle-version>
     </properties>
     
@@ -191,21 +192,21 @@
         <dependency>
             <groupId>edu.emory.cci.aiw.cvrg</groupId>
             <artifactId>eureka-protempa-etl</artifactId>
-            <version>1.8</version>
+            <version>${eureka-version}</version>
             <scope>compile</scope>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>edu.emory.cci.aiw.cvrg</groupId>
             <artifactId>eureka-services</artifactId>
-            <version>1.8</version>
+            <version>${eureka-version}</version>
             <scope>compile</scope>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>edu.emory.cci.aiw.cvrg</groupId>
             <artifactId>eureka-webapp</artifactId>
-            <version>1.8</version>
+            <version>${eureka-version}</version>
             <scope>compile</scope>
             <type>war</type>
         </dependency>
