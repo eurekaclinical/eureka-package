@@ -13,31 +13,48 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 This project includes:
+  AIW BioPortal Client under Apache License, Version 2.0
   Apache Log4j under The Apache Software License, Version 2.0
   Apache XML Security under The Apache Software License, Version 2.0
   avalon-framework under Apache License, Version 2.0
+  BioPortal Client Library under Apache License, Version 2.0
   CAS Server under Apache License, Version 2.0
   Commons Codec under Apache License, Version 2.0
+  Data Mapper for Jackson under The Apache Software License, Version 2.0
   Eureka Package under Apache License, Version 2.0
   Eureka Protempa ETL under Apache License, Version 2.0
   Eureka Services under Apache License, Version 2.0
   Eureka WebApp under Apache License, Version 2.0
   H2 Database Engine under The H2 License, Version 1.0
+  Hamcrest Core under New BSD License
+  Jackson under The Apache Software License, Version 2.0
   Jasig CAS Client for Java - Common Tomcat Integration Support under Apache License Version 2.0
   Jasig CAS Client for Java - Core under Apache License Version 2.0
   Jasig CAS Client for Java - Tomcat 7.x Integration under Apache License Version 2.0
   JavaBeans Activation Framework (JAF) under Common Development and Distribution License (CDDL) v1.0
   JavaMail API under Common Development and Distribution License (CDDL) v1.0
+  JAX-RS provider for JSON content type under The Apache Software License, Version 2.0 or GNU Lesser General Public License (LGPL), Version 2.1
+  JAXB API bundle for GlassFish V3 under CDDL 1.1 or GPL2 w/ CPE
+  JAXB RI under CDDL 1.1 or GPL2 w/ CPE
+  jersey-client under CDDL 1.1 or GPL2 w/ CPE
+  jersey-core under CDDL 1.1 or GPL2 w/ CPE
+  jersey-json under CDDL 1.1 or GPL2 w/ CPE
+  Jettison under Apache License, Version 2.0
+  JUnit under Common Public License Version 1.0
   Logging under The Apache Software License, Version 2.0
   logkit under Apache License, Version 2.0
   MySQL java connector under The GNU General Public License, Version 2
   ojdbc6 under Oracle Technology Network Development and Distribution License Agreement
   OpenSAML-J under Apache 2
   servlet-api under Commons Development and Distribution License, Version 1.0
+  SLF4J API Module under MIT License
+  SLF4J JDK14 Binding under MIT License
+  Streaming API for XML under GNU General Public Library or COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0
   tomcat-annotations-api under Apache License, Version 2.0
   tomcat-api under Apache License, Version 2.0
   tomcat-catalina under Apache License, Version 2.0
   tomcat-juli under Apache License, Version 2.0
   tomcat-servlet-api under Apache License, Version 2.0
   tomcat-util under Apache License, Version 2.0
+  Xml Compatibility extensions for Jackson under The Apache Software License, Version 2.0 or GNU Lesser General Public License (LGPL), Version 2.1
 

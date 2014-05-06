@@ -229,6 +229,11 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
+            <groupId>edu.emory.bmi.aiw</groupId>
+            <artifactId>aiw-bioportal</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
             <version>1.4</version>
@@ -388,6 +393,20 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>appassembler-maven-plugin</artifactId>
+                <version>1.8</version>
+                <configuration>
+                    <useAllProjectDependencies>true</useAllProjectDependencies>
+                    <programs>
+                        <program>
+                            <mainClass>edu.emory.bmi.aiw.AiwBioportalFetcher</mainClass>
+                            <id>aiw-bioportal-update</id>
+                        </program>
+                    </programs>
+                </configuration>
             </plugin>
         </plugins>
     </build>
