@@ -351,18 +351,22 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>appassembler-maven-plugin</artifactId>
-                <version>1.1.1</version>
+                <version>1.8</version>
                 <configuration>
                     <!--  extra JVM args are set in profiles - see below -->
                     <!-- <extraJvmArguments>-Xmx8G</extraJvmArguments> -->
                     <repositoryLayout>flat</repositoryLayout>
                     <repositoryName>lib</repositoryName>
-                    <installArtifacts>false</installArtifacts>
-                    <programs />
+                    <programs>
+                        <program>
+                            <mainClass>edu.emory.bmi.aiw.AiwBioportalFetcher</mainClass>
+                            <id>aiw-bioportal-update</id>
+                        </program>
+                    </programs>
                 </configuration>
                 <executions>
                     <execution>
-                        <phase>package</phase>
+                        <phase>prepare-package</phase>
                         <goals>
                             <goal>assemble</goal>
                         </goals>
@@ -393,20 +397,6 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>appassembler-maven-plugin</artifactId>
-                <version>1.8</version>
-                <configuration>
-                    <useAllProjectDependencies>true</useAllProjectDependencies>
-                    <programs>
-                        <program>
-                            <mainClass>edu.emory.bmi.aiw.AiwBioportalFetcher</mainClass>
-                            <id>aiw-bioportal-update</id>
-                        </program>
-                    </programs>
-                </configuration>
             </plugin>
         </plugins>
     </build>
