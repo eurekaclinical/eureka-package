@@ -45,11 +45,22 @@
                 <include>jaas.config</include>
             </includes>
         </fileSet>
+        <fileSet>
+            <directory>${project.build.directory}/appassembler/bin</directory>
+            <outputDirectory>bioportal/bin</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>${project.build.directory}/appassembler/lib</directory>
+            <outputDirectory>bioportal/lib</outputDirectory>
+        </fileSet>
     </fileSets>
     <dependencySets>
         <dependencySet>
             <outputDirectory>lib</outputDirectory>
             <useTransitiveDependencies>false</useTransitiveDependencies>
+            <excludes>
+                <exclude>edu.emory.bmi.aiw:aiw-bioportal</exclude>
+            </excludes>
         </dependencySet>
     </dependencySets>
 </assembly>
