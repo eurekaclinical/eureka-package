@@ -21,7 +21,8 @@
     </properties>
     
     <scm>
-        <developerConnection>scm:git:ssh://git.cci.emory.edu/opt/git/aiw/eureka-package</developerConnection>
+		<developerConnection>scm:git:ssh://git.cci.emory.edu/opt/git/aiw/eureka-package.git</developerConnection>
+		<tag>HEAD</tag>
     </scm>
     
     <issueManagement>
