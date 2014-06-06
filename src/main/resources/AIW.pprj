@@ -4537,12 +4537,12 @@
 ([KB_495177_Class3] of  String
 
 	(name "username")
-	(string_value "protegeuser"))
+	(string_value "CHANGEME"))
 
 ([KB_495177_Class4] of  String
 
 	(name "password")
-	(string_value "iQffJFGE"))
+	(string_value "CHANGEME"))
 
 ([KB_495177_Class5] of  String
 
