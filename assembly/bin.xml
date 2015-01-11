@@ -22,14 +22,14 @@
             </includes>
         </fileSet>
         <fileSet>
-            <directory>liquibase-2</directory>
+            <directory>liquibase-3</directory>
             <excludes>
                 <exclude>liquibase-backend.properties</exclude>
                 <exclude>liquibase-services.properties</exclude>
             </excludes>
         </fileSet>
         <fileSet>
-            <directory>liquibase-2</directory>
+            <directory>liquibase-3</directory>
             <includes>
                 <include>liquibase-backend.properties</include>
                 <include>liquibase-services.properties</include>
