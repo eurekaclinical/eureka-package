@@ -352,12 +352,6 @@
                     <!-- <extraJvmArguments>-Xmx8G</extraJvmArguments> -->
                     <repositoryLayout>flat</repositoryLayout>
                     <repositoryName>lib</repositoryName>
-                    <programs>
-                        <program>
-                            <mainClass>edu.emory.bmi.aiw.AiwBioportalFetcher</mainClass>
-                            <id>aiw-bioportal-update</id>
-                        </program>
-                    </programs>
                 </configuration>
                 <executions>
                     <execution>
