@@ -23,13 +23,6 @@
         </fileSet>
         <fileSet>
             <directory>liquibase-3</directory>
-            <excludes>
-                <exclude>liquibase-backend.properties</exclude>
-                <exclude>liquibase-services.properties</exclude>
-            </excludes>
-        </fileSet>
-        <fileSet>
-            <directory>liquibase-3</directory>
             <includes>
                 <include>liquibase-backend.properties</include>
                 <include>liquibase-services.properties</include>
@@ -42,25 +35,13 @@
             <includes>
                 <include>AIW.pprj</include>
                 <include>aiw.sql</include>
-                <include>jaas.config</include>
             </includes>
-        </fileSet>
-        <fileSet>
-            <directory>${project.build.directory}/appassembler/bin</directory>
-            <outputDirectory>bioportal/bin</outputDirectory>
-        </fileSet>
-        <fileSet>
-            <directory>${project.build.directory}/appassembler/lib</directory>
-            <outputDirectory>bioportal/lib</outputDirectory>
         </fileSet>
     </fileSets>
     <dependencySets>
         <dependencySet>
             <outputDirectory>lib</outputDirectory>
             <useTransitiveDependencies>false</useTransitiveDependencies>
-            <excludes>
-                <exclude>edu.emory.bmi.aiw:aiw-bioportal</exclude>
-            </excludes>
         </dependencySet>
     </dependencySets>
 </assembly>
