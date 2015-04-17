@@ -24,10 +24,8 @@
         <fileSet>
             <directory>liquibase-3</directory>
             <includes>
-                <include>liquibase-backend.properties</include>
-                <include>liquibase-services.properties</include>
+                <include>*</include>
             </includes>
-            <filtered>true</filtered>
         </fileSet>
         <fileSet>
             <directory>src/main/resources</directory>
@@ -36,6 +34,15 @@
                 <include>AIW.pprj</include>
                 <include>aiw.sql</include>
             </includes>
+        </fileSet>
+        <fileSet>
+            <directory>src/main/resources</directory>
+            <outputDirectory>liquibase-3</outputDirectory>
+            <includes>
+                <include>liquibase-backend.properties</include>
+                <include>liquibase-services.properties</include>
+            </includes>
+            <filtered>true</filtered>
         </fileSet>
     </fileSets>
     <dependencySets>
