@@ -41,14 +41,22 @@
             <includes>
                 <include>liquibase-backend.properties</include>
                 <include>liquibase-services.properties</include>
+                <include>liquibase-i2b2-data-schema.properties</include>
             </includes>
             <filtered>true</filtered>
+        </fileSet>
+        <fileSet>
+            <directory>target/i2b2</directory>
+            <outputDirectory>i2b2</outputDirectory>
         </fileSet>
     </fileSets>
     <dependencySets>
         <dependencySet>
             <outputDirectory>lib</outputDirectory>
             <useTransitiveDependencies>false</useTransitiveDependencies>
+            <excludes>
+                <exclude>edu.emory.cci.aiw:aiw-i2b2-etl</exclude>
+            </excludes>
         </dependencySet>
     </dependencySets>
 </assembly>

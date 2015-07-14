@@ -20,11 +20,12 @@
         <eureka-version>1.10-SNAPSHOT</eureka-version>
         <cas-client-version>3.2.1</cas-client-version>
         <oracle-version>11.2.0.3</oracle-version>
+        <aiw-i2b2-etl-version>1.0.7-SNAPSHOT</aiw-i2b2-etl-version>
     </properties>
     
     <scm>
-		<developerConnection>scm:git:ssh://git.cci.emory.edu/opt/git/aiw/eureka-package.git</developerConnection>
-		<tag>HEAD</tag>
+        <developerConnection>scm:git:ssh://git.cci.emory.edu/opt/git/aiw/eureka-package.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
     
     <issueManagement>
@@ -277,6 +278,12 @@
             <version>1.3.0</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>edu.emory.cci.aiw</groupId>
+            <artifactId>aiw-i2b2-etl</artifactId>
+            <version>${aiw-i2b2-etl-version}</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
   
     <build>
@@ -338,6 +345,25 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>2.6</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>2.10</version>
+                <executions>
+                    <execution>
+                        <id>copy-sql-from-aiw-i2b2-etl</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>unpack-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <includeArtifactIds>aiw-i2b2-etl</includeArtifactIds>
+                            <includes>sql/eureka_package_oracle.sql,sql/eureka_package_body_oracle.sql,sql/eureka_meta_package_oracle.sql,sql/eureka_meta_package_body_oracle.sql,dbmigration/i2b2-data-schema-changelog.xml,dbmigration/i2b2-meta-schema-changelog.xml</includes>
+                            <outputDirectory>${project.build.directory}/i2b2</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
