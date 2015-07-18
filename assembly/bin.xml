@@ -29,14 +29,6 @@
         </fileSet>
         <fileSet>
             <directory>src/main/resources</directory>
-            <outputDirectory>etc</outputDirectory>
-            <includes>
-                <include>AIW.pprj</include>
-                <include>aiw.sql</include>
-            </includes>
-        </fileSet>
-        <fileSet>
-            <directory>src/main/resources</directory>
             <outputDirectory>liquibase-3</outputDirectory>
             <includes>
                 <include>liquibase-backend.properties</include>
