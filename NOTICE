@@ -47,6 +47,7 @@ This project includes:
   ojdbc6 under Oracle Technology Network Development and Distribution License Agreement
   opencsv under Apache 2
   OpenSAML-J under Apache 2
+  PostgreSQL JDBC Driver under The PostgreSQL License
   Protempa Framework under Apache License, Version 2.0
   Protempa Relational Database Data Source Backend under Apache License, Version 2.0
   Protempa ServiceLoader Backend Provider under Apache License, Version 2.0
