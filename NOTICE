@@ -32,7 +32,7 @@ This project includes:
   Eureka Protempa ETL under Apache License, Version 2.0
   Eureka Services under Apache License, Version 2.0
   Eureka WebApp under Apache License, Version 2.0
-  H2 Database Engine under The H2 License, Version 1.0
+  H2 Database Engine under MPL 2.0, and EPL 1.0
   Jasig CAS Client for Java - Common Tomcat Integration Support under Apache License Version 2.0
   Jasig CAS Client for Java - Core under Apache License Version 2.0
   Jasig CAS Client for Java - Tomcat 7.x Integration under Apache License Version 2.0
