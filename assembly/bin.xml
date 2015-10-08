@@ -31,10 +31,7 @@
             <directory>src/main/resources</directory>
             <outputDirectory>liquibase-3</outputDirectory>
             <includes>
-                <include>liquibase-backend.properties</include>
-                <include>liquibase-services.properties</include>
-                <include>liquibase-i2b2-data-schema.properties</include>
-                <include>liquibase-i2b2-meta-schema.properties</include>
+                <include>liquibase-*.properties</include>
             </includes>
             <filtered>true</filtered>
         </fileSet>
