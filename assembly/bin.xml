@@ -28,11 +28,12 @@
             </includes>
         </fileSet>
         <fileSet>
-            <directory>src/main/resources</directory>
+            <directory>src/main/resources/dbmigration</directory>
+            <outputDirectory>i2b2/dbmigration</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>src/main/resources/liquibase-properties-files</directory>
             <outputDirectory>liquibase-3</outputDirectory>
-            <includes>
-                <include>liquibase-*.properties</include>
-            </includes>
             <filtered>true</filtered>
         </fileSet>
         <fileSet>

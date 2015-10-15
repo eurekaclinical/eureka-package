@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+  #%L
+  AIW i2b2 ETL
+  %%
+  Copyright (C) 2012 - 2015 Emory University
+  %%
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+       http://www.apache.org/licenses/LICENSE-2.0
+  
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+#L%
+-->
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" 
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.3.xsd">
+
+    <changeSet author="arpost" id="PM-EK-superuser">
+        <insert tableName="PM_USER_DATA">
+            <column name="USER_ID" value="superuser"/>
+            <column name="FULL_NAME" value="Super User"/>
+            <!-- the default password is defaultPassword -->
+            <column name="PASSWORD" value="4656fd365a7b2a27efb753bca9b9cf1"/>
+            <column name="STATUS_CD" value="A"/>
+        </insert>
+        <insert tableName="PM_PROJECT_USER_ROLES">
+            <column name="PROJECT_ID" value="Demo"/>
+            <column name="USER_ID" value="superuser"/>
+            <column name="USER_ROLE_CD" value="DATA_AGG"/>
+            <column name="STATUS_CD" valueNumeric="A"/>
+        </insert>
+        <insert tableName="PM_PROJECT_USER_ROLES">
+            <column name="PROJECT_ID" value="Demo"/>
+            <column name="USER_ID" value="superuser"/>
+            <column name="USER_ROLE_CD" value="DATA_DEID"/>
+            <column name="STATUS_CD" valueNumeric="A"/>
+        </insert>
+        <insert tableName="PM_PROJECT_USER_ROLES">
+            <column name="PROJECT_ID" value="Demo"/>
+            <column name="USER_ID" value="superuser"/>
+            <column name="USER_ROLE_CD" value="DATA_LDS"/>
+            <column name="STATUS_CD" valueNumeric="A"/>
+        </insert>
+        <insert tableName="PM_PROJECT_USER_ROLES">
+            <column name="PROJECT_ID" value="Demo"/>
+            <column name="USER_ID" value="superuser"/>
+            <column name="USER_ROLE_CD" value="DATA_LDS"/>
+            <column name="STATUS_CD" valueNumeric="A"/>
+        </insert>
+        <insert tableName="PM_PROJECT_USER_ROLES">
+            <column name="PROJECT_ID" value="Demo"/>
+            <column name="USER_ID" value="superuser"/>
+            <column name="USER_ROLE_CD" value="DATA_OBFSC"/>
+            <column name="STATUS_CD" valueNumeric="A"/>
+        </insert>
+        <insert tableName="PM_PROJECT_USER_ROLES">
+            <column name="PROJECT_ID" value="Demo"/>
+            <column name="USER_ID" value="superuser"/>
+            <column name="USER_ROLE_CD" value="DATA_PROT"/>
+            <column name="STATUS_CD" valueNumeric="A"/>
+        </insert>
+        <insert tableName="PM_PROJECT_USER_ROLES">
+            <column name="PROJECT_ID" value="Demo"/>
+            <column name="USER_ID" value="superuser"/>
+            <column name="USER_ROLE_CD" value="EDITOR"/>
+            <column name="STATUS_CD" valueNumeric="A"/>
+        </insert>
+        <insert tableName="PM_PROJECT_USER_ROLES">
+            <column name="PROJECT_ID" value="Demo"/>
+            <column name="USER_ID" value="superuser"/>
+            <column name="USER_ROLE_CD" value="USER"/>
+            <column name="STATUS_CD" valueNumeric="A"/>
+        </insert>
+        <rollback>
+            DELETE FROM PM_PROJECT_USER_ROLES WHERE PROJECT_ID='Demo' AND USER_ID='superuser';
+            DELETE FROM PM_USER_DATA WHERE USER_ID='superuser'
+        </rollback>
+    </changeSet>
+</databaseChangeLog>
