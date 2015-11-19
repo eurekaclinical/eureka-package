@@ -17,10 +17,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <eureka-version>1.10-SNAPSHOT</eureka-version>
+        <eureka-version>2.0-Alpha-1</eureka-version>
         <cas-client-version>3.2.1</cas-client-version>
         <oracle-version>11.2.0.3</oracle-version>
-        <aiw-i2b2-etl-version>1.0.7-SNAPSHOT</aiw-i2b2-etl-version>
+        <aiw-i2b2-etl-version>2.0-Alpha-2</aiw-i2b2-etl-version>
         <postgresql-version>9.4-1201-jdbc41</postgresql-version>
         <h2-version>1.4.185</h2-version>
     </properties>
