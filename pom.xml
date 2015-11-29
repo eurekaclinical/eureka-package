@@ -29,7 +29,7 @@ tool.
     </properties>
     
     <scm>
-        <developerConnection>scm:git:https://github.com/eureka/eureka-package.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/eurekaclinical/eureka-package.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
     
