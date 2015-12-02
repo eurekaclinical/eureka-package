@@ -370,7 +370,31 @@ tool.
                         </goals>
                         <configuration>
                             <includeArtifactIds>aiw-i2b2-etl</includeArtifactIds>
-                            <includes>sql/eureka_meta_postgresql.sql,sql/eureka_postgresql.sql,sql/eureka_package_oracle.sql,sql/eureka_package_body_oracle.sql,sql/eureka_meta_package_oracle.sql,sql/eureka_meta_package_body_oracle.sql,dbmigration/i2b2-data-schema-changelog.xml,dbmigration/i2b2-meta-schema-changelog.xml,dbmigration/eureka-ontology-EK_DEMOG-changelog.xml,dbmigration/eureka-ontology-EK_ICD9D-changelog.xml,dbmigration/eureka-ontology-EK_ICD9P-changelog.xml,dbmigration/eureka-ontology-EK_LABS-changelog.xml,dbmigration/eureka-ontology-EK_MED_ORDERS-changelog.xml,dbmigration/eureka-ontology-EK_VITALS-changelog.xml</includes>
+                            <includes>
+                                sql/eureka_meta_postgresql.sql,
+                                sql/eureka_postgresql.sql,
+                                sql/eureka_package_oracle.sql,
+                                sql/eureka_package_body_oracle.sql,
+                                sql/eureka_meta_package_oracle.sql,
+                                sql/eureka_meta_package_body_oracle.sql,
+                                dbmigration/i2b2-data-schema-changelog.xml,
+                                dbmigration/i2b2-meta-schema-changelog.xml,
+                                dbmigration/eureka-ontology-EK_DEMOG-changelog.xml,
+                                dbmigration/eureka-ontology-EK_ICD9D-changelog.xml,
+                                dbmigration/eureka-ontology-EK_ICD9P-changelog.xml,
+                                dbmigration/eureka-ontology-EK_LABS-changelog.xml,
+                                dbmigration/eureka-ontology-EK_MED_ORDERS-changelog.xml,
+                                dbmigration/eureka-ontology-EK_MED_ORDERS-changelog.DDL.xml,
+                                dbmigration/eureka-ontology-EK_MED_ORDERS-changelog.0.xml,
+                                dbmigration/eureka-ontology-EK_MED_ORDERS-changelog.1.xml,
+                                dbmigration/eureka-ontology-EK_MED_ORDERS-changelog.2.xml,
+                                dbmigration/eureka-ontology-EK_MED_ORDERS-changelog.3.xml,
+                                dbmigration/eureka-ontology-EK_MED_ORDERS-changelog.4.xml,
+                                dbmigration/eureka-ontology-EK_MED_ORDERS-changelog.5.xml,
+                                dbmigration/eureka-ontology-EK_MED_ORDERS-changelog.6.xml,
+                                dbmigration/eureka-ontology-EK_MED_ORDERS-changelog.7.xml,
+                                dbmigration/eureka-ontology-EK_VITALS-changelog.xml
+                            </includes>
                             <outputDirectory>${project.build.directory}/i2b2</outputDirectory>
                         </configuration>
                     </execution>
