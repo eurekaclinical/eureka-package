@@ -19,7 +19,7 @@ tool.
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <eureka-version>2.0-Alpha-2</eureka-version>
+        <eureka-version>2.0-Alpha-3</eureka-version>
         <cas-client-version>3.2.1</cas-client-version>
         <oracle-version>11.2.0.3</oracle-version>
         <aiw-i2b2-etl-version>2.0-Alpha-4</aiw-i2b2-etl-version>
