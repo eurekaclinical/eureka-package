@@ -46,7 +46,7 @@
             <outputDirectory>lib</outputDirectory>
             <useTransitiveDependencies>false</useTransitiveDependencies>
             <excludes>
-                <exclude>edu.emory.cci.aiw:aiw-i2b2-etl</exclude>
+                <exclude>org.eurekaclinical:aiw-i2b2-etl</exclude>
             </excludes>
         </dependencySet>
     </dependencySets>
