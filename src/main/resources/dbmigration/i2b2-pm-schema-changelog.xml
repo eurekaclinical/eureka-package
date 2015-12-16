@@ -36,49 +36,49 @@ limitations under the License.
             <column name="PROJECT_ID" value="Demo"/>
             <column name="USER_ID" value="superuser"/>
             <column name="USER_ROLE_CD" value="DATA_AGG"/>
-            <column name="STATUS_CD" valueNumeric="A"/>
+            <column name="STATUS_CD" value="A"/>
         </insert>
         <insert tableName="PM_PROJECT_USER_ROLES">
             <column name="PROJECT_ID" value="Demo"/>
             <column name="USER_ID" value="superuser"/>
             <column name="USER_ROLE_CD" value="DATA_DEID"/>
-            <column name="STATUS_CD" valueNumeric="A"/>
+            <column name="STATUS_CD" value="A"/>
         </insert>
         <insert tableName="PM_PROJECT_USER_ROLES">
             <column name="PROJECT_ID" value="Demo"/>
             <column name="USER_ID" value="superuser"/>
             <column name="USER_ROLE_CD" value="DATA_LDS"/>
-            <column name="STATUS_CD" valueNumeric="A"/>
+            <column name="STATUS_CD" value="A"/>
         </insert>
         <insert tableName="PM_PROJECT_USER_ROLES">
             <column name="PROJECT_ID" value="Demo"/>
             <column name="USER_ID" value="superuser"/>
             <column name="USER_ROLE_CD" value="DATA_LDS"/>
-            <column name="STATUS_CD" valueNumeric="A"/>
+            <column name="STATUS_CD" value="A"/>
         </insert>
         <insert tableName="PM_PROJECT_USER_ROLES">
             <column name="PROJECT_ID" value="Demo"/>
             <column name="USER_ID" value="superuser"/>
             <column name="USER_ROLE_CD" value="DATA_OBFSC"/>
-            <column name="STATUS_CD" valueNumeric="A"/>
+            <column name="STATUS_CD" value="A"/>
         </insert>
         <insert tableName="PM_PROJECT_USER_ROLES">
             <column name="PROJECT_ID" value="Demo"/>
             <column name="USER_ID" value="superuser"/>
             <column name="USER_ROLE_CD" value="DATA_PROT"/>
-            <column name="STATUS_CD" valueNumeric="A"/>
+            <column name="STATUS_CD" value="A"/>
         </insert>
         <insert tableName="PM_PROJECT_USER_ROLES">
             <column name="PROJECT_ID" value="Demo"/>
             <column name="USER_ID" value="superuser"/>
             <column name="USER_ROLE_CD" value="EDITOR"/>
-            <column name="STATUS_CD" valueNumeric="A"/>
+            <column name="STATUS_CD" value="A"/>
         </insert>
         <insert tableName="PM_PROJECT_USER_ROLES">
             <column name="PROJECT_ID" value="Demo"/>
             <column name="USER_ID" value="superuser"/>
             <column name="USER_ROLE_CD" value="USER"/>
-            <column name="STATUS_CD" valueNumeric="A"/>
+            <column name="STATUS_CD" value="A"/>
         </insert>
         <rollback>
             DELETE FROM PM_PROJECT_USER_ROLES WHERE PROJECT_ID='Demo' AND USER_ID='superuser';
