@@ -7,9 +7,8 @@
     <packaging>pom</packaging>
 
     <name>Eureka Package</name>
-    <description>This is the binary distribution of Eureka!. Eureka! provides an easy way to 
-        load clinical datasets into an instance of i2b2, a clinical database query 
-        tool.
+    <description>This is the binary distribution of Eureka!, and open source
+clinical phenotyping and ETL system.
     </description>
     <parent>
         <groupId>org.eurekaclinical</groupId>
@@ -19,7 +18,7 @@
     <url>http://eurekaclinical.org</url>
 
     <properties>
-        <eureka-version>2.0-Alpha-5</eureka-version>
+        <eureka-version>2.0-Alpha-6</eureka-version>
         <cas-client-version>3.2.1</cas-client-version>
         <cas-server-version>2.0-Alpha-2</cas-server-version>
     </properties>
