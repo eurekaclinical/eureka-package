@@ -18,7 +18,7 @@ clinical phenotyping and ETL system.
     <url>http://eurekaclinical.org</url>
 
     <properties>
-        <eureka-version>2.0-Alpha-16</eureka-version>
+        <eureka-version>2.0-Alpha-17</eureka-version>
         <cas-client-version>3.2.1</cas-client-version>
         <cas-server-version>2.0-Alpha-4</cas-server-version>
     </properties>
@@ -111,7 +111,7 @@ clinical phenotyping and ETL system.
         <dependency>
             <groupId>org.eurekaclinical</groupId>
             <artifactId>aiw-i2b2-etl</artifactId>
-            <version>2.0-Alpha-17</version>
+            <version>2.0-Alpha-18</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -176,7 +176,30 @@ clinical phenotyping and ETL system.
                                 dbmigration/eureka-ontology-EK_MED_ORDERS-changelog.5.xml,
                                 dbmigration/eureka-ontology-EK_MED_ORDERS-changelog.6.xml,
                                 dbmigration/eureka-ontology-EK_MED_ORDERS-changelog.7.xml,
-                                dbmigration/eureka-ontology-EK_VITALS-changelog.xml
+                                dbmigration/eureka-ontology-EK_VITALS-changelog.xml,
+                                dbmigration/eureka-ontology-EK_ICD10CM-changelog.xml,
+                                dbmigration/eureka-ontology-EK_ICD10CM-changelog.DDL.xml,
+                                dbmigration/eureka-ontology-EK_ICD10CM-changelog.0.xml,
+                                dbmigration/eureka-ontology-EK_ICD10CM-changelog.1.xml,
+                                dbmigration/eureka-ontology-EK_ICD10CM-changelog.2.xml,
+                                dbmigration/eureka-ontology-EK_ICD10CM-changelog.3.xml,
+                                dbmigration/eureka-ontology-EK_ICD10CM-changelog.4.xml,
+                                dbmigration/eureka-ontology-EK_ICD10CM-changelog.5.xml,
+                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.xml,
+                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.DDL.xml,
+                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.00.xml,
+                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.01.xml,
+                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.02.xml,
+                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.03.xml,
+                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.04.xml,
+                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.05.xml,
+                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.06.xml,
+                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.07.xml,
+                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.08.xml,
+                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.09.xml,
+                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.10.xml,
+                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.11.xml,
+                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.12.xml
                             </includes>
                             <outputDirectory>${project.build.directory}/i2b2</outputDirectory>
                         </configuration>
