@@ -7,6 +7,8 @@ ${project.description}
 
 WHAT'S NEW
 
+Version 2.0 <need to fill in>
+
 Version 1.9 includes an update to the UI, now using Bootstrap 3, 
 to make the application more usable on mobile devices.  It also 
 includes support for i2b2 1.7.  A new feature to allow usage of 
