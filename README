@@ -50,6 +50,46 @@ INSTALLATION
 Once downloaded and unpacked, please see http://eurekaclinical.org/ for 
 documentation on installation and usage.
 
+To compile from source, make sure JDK 8 and Maven >= 3.2.5 are installed.
+You also need an Oracle developer connection acccount, which is required
+because the build process pulls a copy of the Oracle JDBC driver from 
+Oracle's servers. Once you have an account, add the following to your
+~/.m2/settings.xml file:
+
+<settings>
+...
+  <servers>
+    ...
+    <server>
+      <id>maven.oracle.com</id>
+      <username>your_username</username>
+      <password>your_password</password>
+      <configuration>
+        <basicAuthScope>
+         <host>ANY</host>
+         <port>ANY</port>
+         <realm>OAM 11g</realm>
+        </basicAuthScope>
+        <httpConfiguration>
+          <all>
+            <params>
+              <property>
+                <name>http.protocol.allow-circular-redirects</name>
+                <value>%b,true</value>
+              </property>
+            </params>
+          </all>
+        </httpConfiguration>
+      </configuration>
+    </server>
+    ...
+  </servers>
+  ...
+</settings>
+
+See http://docs.oracle.com/middleware/1213/core/MAVEN/config_maven_repo.htm#MAVEN9010
+for more information.
+
 CONTACTING US
 
 Please send an email to help@eurekaclinical.org for support or questions.
