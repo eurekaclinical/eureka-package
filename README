@@ -40,12 +40,12 @@ can be specified in the underlying Protempa software.
 
 REQUIREMENTS
 
-The current version is known to work with Oracle Java 7. It is
-expected to work with OpenJDK 7 as well. 
+The current version is known to work with Oracle Java 8. It is
+expected to work with OpenJDK 8 as well. 
 
 INSTALLATION
 
-Once downloaded and unpacked, please see http://aiw.sourceforge.net/ for 
+Once downloaded and unpacked, please see http://eurekaclinical.org/ for 
 documentation on installation and usage.
 
 CONTACTING US
