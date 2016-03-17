@@ -26,57 +26,57 @@ limitations under the License.
 
     <changeSet author="arpost" id="PM-EK-superuser">
         <insert tableName="PM_USER_DATA">
-            <column name="USER_ID" value="superuser"/>
-            <column name="FULL_NAME" value="Super User"/>
+            <column name="USER_ID" value="${eureka.superuser.username}"/>
+            <column name="FULL_NAME" value="${eureka.superuser.fullname}"/>
             <!-- the default password is defaultPassword -->
-            <column name="PASSWORD" value="4656fd365a7b2a27efb753bca9b9cf1"/>
+            <column name="PASSWORD" value="${eureka.superuser.password}"/>
             <column name="STATUS_CD" value="A"/>
         </insert>
         <insert tableName="PM_PROJECT_USER_ROLES">
             <column name="PROJECT_ID" value="Demo"/>
-            <column name="USER_ID" value="superuser"/>
+            <column name="USER_ID" value="${eureka.superuser.username}"/>
             <column name="USER_ROLE_CD" value="DATA_AGG"/>
             <column name="STATUS_CD" value="A"/>
         </insert>
         <insert tableName="PM_PROJECT_USER_ROLES">
             <column name="PROJECT_ID" value="Demo"/>
-            <column name="USER_ID" value="superuser"/>
+            <column name="USER_ID" value="${eureka.superuser.username}"/>
             <column name="USER_ROLE_CD" value="DATA_DEID"/>
             <column name="STATUS_CD" value="A"/>
         </insert>
         <insert tableName="PM_PROJECT_USER_ROLES">
             <column name="PROJECT_ID" value="Demo"/>
-            <column name="USER_ID" value="superuser"/>
+            <column name="USER_ID" value="${eureka.superuser.username}"/>
             <column name="USER_ROLE_CD" value="DATA_LDS"/>
             <column name="STATUS_CD" value="A"/>
         </insert>
         <insert tableName="PM_PROJECT_USER_ROLES">
             <column name="PROJECT_ID" value="Demo"/>
-            <column name="USER_ID" value="superuser"/>
+            <column name="USER_ID" value="${eureka.superuser.username}"/>
             <column name="USER_ROLE_CD" value="DATA_OBFSC"/>
             <column name="STATUS_CD" value="A"/>
         </insert>
         <insert tableName="PM_PROJECT_USER_ROLES">
             <column name="PROJECT_ID" value="Demo"/>
-            <column name="USER_ID" value="superuser"/>
+            <column name="USER_ID" value="${eureka.superuser.username}"/>
             <column name="USER_ROLE_CD" value="DATA_PROT"/>
             <column name="STATUS_CD" value="A"/>
         </insert>
         <insert tableName="PM_PROJECT_USER_ROLES">
             <column name="PROJECT_ID" value="Demo"/>
-            <column name="USER_ID" value="superuser"/>
+            <column name="USER_ID" value="${eureka.superuser.username}"/>
             <column name="USER_ROLE_CD" value="EDITOR"/>
             <column name="STATUS_CD" value="A"/>
         </insert>
         <insert tableName="PM_PROJECT_USER_ROLES">
             <column name="PROJECT_ID" value="Demo"/>
-            <column name="USER_ID" value="superuser"/>
+            <column name="USER_ID" value="${eureka.superuser.username}"/>
             <column name="USER_ROLE_CD" value="USER"/>
             <column name="STATUS_CD" value="A"/>
         </insert>
         <rollback>
-            DELETE FROM PM_PROJECT_USER_ROLES WHERE PROJECT_ID='Demo' AND USER_ID='superuser';
-            DELETE FROM PM_USER_DATA WHERE USER_ID='superuser'
+            DELETE FROM PM_PROJECT_USER_ROLES WHERE PROJECT_ID='Demo' AND USER_ID='${eureka.superuser.username}';
+            DELETE FROM PM_USER_DATA WHERE USER_ID='${eureka.superuser.username}'
         </rollback>
     </changeSet>
 </databaseChangeLog>
