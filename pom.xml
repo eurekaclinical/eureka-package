@@ -21,6 +21,7 @@ clinical phenotyping and ETL system.
         <eureka-version>2.0-Alpha-20</eureka-version>
         <cas-client-version>3.2.1</cas-client-version>
         <cas-server-version>2.0-Alpha-4</cas-server-version>
+        <cas-shib-version>1.0-Alpha-1</cas-shib-version>
     </properties>
     
     <scm>
@@ -48,6 +49,13 @@ clinical phenotyping and ETL system.
             <groupId>org.eurekaclinical</groupId>
             <artifactId>cas-server</artifactId>
             <version>${cas-server-version}</version>
+            <scope>compile</scope>
+            <type>war</type>
+        </dependency>        
+        <dependency>
+            <groupId>org.eurekaclinical</groupId>
+            <artifactId>casshib</artifactId>
+            <version>${cas-shib-version}</version>
             <scope>compile</scope>
             <type>war</type>
         </dependency>
