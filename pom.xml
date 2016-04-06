@@ -18,7 +18,7 @@ clinical phenotyping and ETL system.
     <url>http://eurekaclinical.org</url>
 
     <properties>
-        <eureka-version>2.0-Alpha-21</eureka-version>
+        <eureka-version>2.0-Alpha-22</eureka-version>
         <cas-client-version>3.2.1</cas-client-version>
         <cas-server-version>2.0-Alpha-5</cas-server-version>
         <cas-shib-version>1.0-Alpha-2</cas-shib-version>
