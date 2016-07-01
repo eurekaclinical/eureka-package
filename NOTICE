@@ -49,7 +49,7 @@ This project includes:
             Please refer to the comments below for additional
             information.
   opencsv under Apache 2
-  PostgreSQL JDBC Driver under The PostgreSQL License
+  PostgreSQL JDBC Driver - JDBC 4.1 under The PostgreSQL License
   Protempa Framework under Apache License, Version 2.0
   Protempa Relational Database Data Source Backend under Apache License, Version 2.0
   Protempa ServiceLoader Backend Provider under Apache License, Version 2.0
