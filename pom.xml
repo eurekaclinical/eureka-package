@@ -3,7 +3,7 @@
 
     <groupId>org.eurekaclinical</groupId>
     <artifactId>eureka-package</artifactId>
-    <version>2.0-Alpha-33-SNAPSHOT</version>
+    <version>2.0-Alpha-32-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Eureka Package</name>
@@ -12,13 +12,13 @@ clinical phenotyping and ETL system.
     </description>
     <parent>
         <groupId>org.eurekaclinical</groupId>
-        <artifactId>eurekaclinical-parent-standard-deps</artifactId>
-        <version>1-Alpha-4</version>
+        <artifactId>eurekaclinical-parent</artifactId>
+        <version>1-Alpha-13</version>
     </parent>
     <url>http://eurekaclinical.org</url>
 
     <properties>
-        <eureka-version>2.0-Alpha-27</eureka-version>
+        <eureka-version>2.0-Alpha-26</eureka-version>
         <cas-client-version>3.2.1</cas-client-version>
         <cas-server-version>2.0-Alpha-5</cas-server-version>
         <cas-shib-version>1.0-Alpha-2</cas-shib-version>
