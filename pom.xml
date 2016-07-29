@@ -209,7 +209,8 @@ clinical phenotyping and ETL system.
                                 dbmigration/eureka-ontology-EK_ICD10PCS-changelog.09.xml,
                                 dbmigration/eureka-ontology-EK_ICD10PCS-changelog.10.xml,
                                 dbmigration/eureka-ontology-EK_ICD10PCS-changelog.11.xml,
-                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.12.xml
+                                dbmigration/eureka-ontology-EK_ICD10PCS-changelog.12.xml,
+				dbmigration/eureka-ontology-QT_BREAKDOWN_PATH-changelog.xml
                             </includes>
                             <outputDirectory>${project.build.directory}/i2b2</outputDirectory>
                         </configuration>
